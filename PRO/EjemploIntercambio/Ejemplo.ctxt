@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Ejemplo
+comment1.params=primerA\ primerB
+comment1.target=Ejemplo(int,\ int)
+comment1.text=Constructor\ de\ inicializaci\u00F3n,\ requiere\ dos\ n\u00FAmeros\ enteros\ cualquiera\r\n\ @param\ primerA\ valor\ inicial\ del\ atributo\ a\r\n\ @param\ primerB\ valor\ inicial\ del\ atributo\ b\r\n
+comment2.params=
+comment2.target=void\ intercambiar()
+comment2.text=Hace\ que\ el\ valor\ de\ a\ sea\ igual\ al\ de\ b\ y\ viceversa,\ \r\n\ para\ ello\ crea\ una\ variable\ temporal\ del\ mismo\ nombre\r\n
+comment3.params=
+comment3.target=void\ escribir()
+comment3.text=Imprime\ en\ pantalla\ los\ valores\ de\ los\ atributos\ a\ y\ b\ en\ el\ siguiente\ formato\:\r\n\ \r\n\ Atributo\ a\ \=\ XXX\r\n\ Atributo\ b\ \=\ XXX\r\n
+comment4.params=
+comment4.target=void\ promptAntes()
+comment4.text=Imprime\ en\ pantalla\ la\ frase\ "Antes\ del\ intercambio"\ con\ un\ salto\ de\ l\u00EDnea\r\n
+comment5.params=
+comment5.target=void\ promptDespues()
+comment5.text=Imprime\ en\ pantalla\ la\ frase\ "Despu\u00E9s\ del\ intercambio"\ con\ un\ salto\ de\ l\u00EDnea\r\n
+numComments=6

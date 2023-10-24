@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Alexis Felipe Rodríguez 1º DAM_MA-->
+
+<!--1.--> <A HREF=www.ieselrincon.org>Enlace1</A><BR>  <!-- No es correcto porque omite el etiqueta final de "BR" y la URL debería estar entre comillas -->
+
+<!--2.--> <B>Negrita<I> y cursiva</B></I> <!--No es correcto porque las etiquetas no se cierran en el orden correcto, debería ser correcto
+si cambiamos de sitio </B> y </R>, que es justo lo que pasa siguiente línea-->
+
+<!--3.--> <B>Negrita<I>y cursiva</I></B> <!--Es correcto, debería mostrar Negrita en negrita y "y cursiva" en negrita y cursiva si estuviera escrito en HTML-->
+
+<!--4.--> <B><I>Negrita y cursiva</I></B> <!--Es correcto, debería mostrar todo el texto en negrita y cursiva si estuviera escrito en HTML-->

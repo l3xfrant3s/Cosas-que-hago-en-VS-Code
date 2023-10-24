@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Alexis Felipe Rodríguez 1º DAM_MA-->
+
+<!--"Alumno:
+
+Nombre = Pepe
+
+Apellido1= Pérez
+
+Apellido2= Rodríguez
+
+Edad= 33
+
+Módulos de los que se matricula = LND, LNT, FOL, PRO, ETS, GTB, SSF
+
+Cursos que lleva en el IES El Rincón = 2010, 2011, 2012"-->
+
+
+<Alumno>
+    <Nombre>Pepe</Nombre>
+    <Apellido1>Pérez</Apellido1>
+    <Apellido2>Rodríguez</Apellido2>
+    <Edad>33</Edad>
+    <Modulos>
+        <Modulo>LND</Modulo>
+        <Modulo>LNT</Modulo>
+        <Modulo>FOL</Modulo>
+        <Modulo>PRO</Modulo>
+        <Modulo>ETS</Modulo>
+        <Modulo>GTB</Modulo>
+        <Modulo>SSF</Modulo>
+    </Modulos>
+    <Cursos>
+        <Curso>2010</Curso>
+        <Curso>2011</Curso>
+        <Curso>2012</Curso>
+    </Cursos>   
+</Alumno>

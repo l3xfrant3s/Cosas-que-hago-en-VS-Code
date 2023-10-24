@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Alexis Felipe Rodríguez, 1º DAM_MA-->
+
+<pedido>
+    <pizzas>
+        <pizza ingrediente_adicional = "Pimientos morrones">Margarita</pizza>
+        <pizza>Artesana</pizza>
+        <pizza>Artesana</pizza>
+        <pizza>Vegetal</pizza>
+    </pizzas>
+    <direccion>
+        <tipo_via>calle</tipo_via>
+        <nombre>Guanarteme</nombre>
+        <numero>17</numero>
+    </direccion>
+    <destinatario>
+        <nombre>Pepe</nombre>
+        <apellido>Pérez</apellido>
+    </destinatario>
+</pedido>

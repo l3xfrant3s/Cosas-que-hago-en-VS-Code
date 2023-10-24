@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Alexis Felipe Rodríguez 1º DAM_MA-->
+
+<!DOCTYPE inversiones [
+    <!ELEMENT inversiones (país*)>
+    <!ATTLIST inversiones xmlns:p CDATA #FIXED "https://www.gouvernement.fr/">
+    <!ATTLIST inversiones xmlns:d CDATA #FIXED "https://www.tresor.economie.gouv.fr/Institutionnel/the-french-treasury">
+    <!ELEMENT país (p:capital, d:capital)>
+    <!ATTLIST país nombre CDATA #REQUIRED>         
+    <!ELEMENT p:capital (#PCDATA)>
+    <!ELEMENT d:capital (#PCDATA)>
+]>
+
+<inversiones xmlns:p="https://www.gouvernement.fr/" 
+xmlns:d="https://www.tresor.economie.gouv.fr/Institutionnel/the-french-treasury">
+    <país nombre = "Francia">
+        <p:capital>París</p:capital>
+        <d:capital>1200€</d:capital>
+    </país>
+</inversiones>

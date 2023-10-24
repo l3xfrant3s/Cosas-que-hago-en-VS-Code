@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos [
+    <!ELEMENT alumnos (alumno*)>
+    <!ELEMENT alumno (nombre, apellido, ciclo, notaMedia)>
+    <!ATTLIST alumno expediente CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT ciclo (#PCDATA)>
+    <!ELEMENT notaMedia (#PCDATA)>
+]>
+<alumnos>
+    <alumno expediente="A001">
+        <nombre>Alba</nombre>
+        <apellido>Alfonsina Storni</apellido>
+        <ciclo>DAM</ciclo>
+        <notaMedia>8</notaMedia>
+    </alumno>
+    <alumno expediente="A002">
+        <nombre>Berta</nombre>
+        <apellido>Bertold Brecht</apellido>
+        <ciclo>DAM</ciclo>
+        <notaMedia>7</notaMedia>
+    </alumno>
+    <alumno expediente="A003">
+        <nombre>Carlos</nombre>
+        <apellido>Charles Baudelaire</apellido>
+        <ciclo>DAM</ciclo>
+        <notaMedia>9</notaMedia>
+    </alumno>
+</alumnos>

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Fecha
+comment1.params=
+comment1.target=Fecha()
+comment2.params=d\ m\ a
+comment2.target=Fecha(int,\ int,\ int)
+comment3.params=f
+comment3.target=Fecha(Fecha)
+comment4.params=
+comment4.target=boolean\ esBisiesto()
+comment5.params=
+comment5.target=int\ diasMes()
+comment6.params=
+comment6.target=java.lang.String\ printCorta()
+comment7.params=
+comment7.target=java.lang.String\ printLarga()
+comment8.params=
+comment8.target=boolean\ esCorrecta()
+numComments=9

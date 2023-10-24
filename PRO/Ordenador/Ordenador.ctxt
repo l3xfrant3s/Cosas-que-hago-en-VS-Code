@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Ordenador
+comment1.params=cuantaMemoriaMaxima
+comment1.target=Ordenador(int)
+comment2.params=
+comment2.target=int\ getMaxMemoria()
+comment3.params=
+comment3.target=int\ getMemoriaDisponible()
+comment4.params=
+comment4.target=void\ printInformacion()
+comment5.params=
+comment5.target=void\ vaciarMemoria()
+comment6.params=
+comment6.target=boolean\ instalar256Mb()
+comment7.params=cuantaMemoria
+comment7.target=boolean\ instalarMemoria(int)
+numComments=8

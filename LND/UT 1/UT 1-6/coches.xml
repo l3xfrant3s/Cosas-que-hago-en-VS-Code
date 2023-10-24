@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Alexis Felipe Rodríguez 1º DAM_MA-->
+<!DOCTYPE coches [
+    <!ELEMENT coches (coche*)>
+    <!ELEMENT coche (marca, modelo, puertas, color, precio)>
+    <!ATTLIST coche matricula ID #REQUIRED>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT modelo (#PCDATA)>
+    <!ELEMENT puertas (#PCDATA)>
+    <!ELEMENT color (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ATTLIST precio tipo (nuevo|ocasion) #REQUIRED>
+]>
+<coches>
+    <coche matricula = "ES0000BBB">
+        <marca>Kia</marca>
+        <modelo>Sportage</modelo>
+        <puertas>5</puertas>
+        <color>Rojo</color>
+        <precio tipo="ocasion">13500</precio>
+    </coche>
+    <coche matricula = "ES0001BBB">
+        <marca>Toyota</marca>
+        <modelo>GR Yaris</modelo>
+        <puertas>3</puertas>
+        <color>Blanco</color>
+        <precio tipo="nuevo">40000</precio>
+    </coche>
+</coches>

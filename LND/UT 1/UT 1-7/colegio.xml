@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Alexis Felipe Rodríguez 1º DAM_MA-->
+<!DOCTYPE colegio [
+    <!ELEMENT colegio (alumno*, profesor*)>
+    <!ELEMENT alumno (expediente, nombre_alumno, apellido, matricula, activo?)>
+    <!ELEMENT expediente (#PCDATA)>
+    <!ATTLIST expediente codigo_unico ID #REQUIRED>
+    <!ELEMENT nombre_alumno (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT matricula (#PCDATA)>
+    <!ELEMENT activo EMPTY>
+    <!ELEMENT profesor (nombre_profesor, ciclo, foto)>
+    <!ELEMENT nombre_profesor (#PCDATA)>
+    <!ELEMENT ciclo (#PCDATA)>
+    <!ELEMENT foto (#PCDATA)>
+]>
+
+<colegio>
+    <alumno>
+        <expediente codigo_unico="A01"></expediente>
+        <nombre_alumno>Pablo</nombre_alumno>
+        <apellido>Barros</apellido>
+        <matricula>2020</matricula>
+        <activo />
+    </alumno>
+    <alumno>
+        <expediente codigo_unico="B02"></expediente>
+        <nombre_alumno>Jesús</nombre_alumno>
+        <apellido>Gutierrez</apellido>
+        <matricula>2022</matricula>
+    </alumno>
+    <profesor>
+        <nombre_profesor>Feliciano</nombre_profesor>
+        <ciclo>DAM</ciclo>
+        <foto>imagen.png</foto>
+    </profesor>
+</colegio>

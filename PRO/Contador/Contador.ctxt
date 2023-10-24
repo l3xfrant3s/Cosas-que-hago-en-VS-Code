@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Contador
+comment1.params=
+comment1.target=Contador()
+comment2.params=inicio
+comment2.target=Contador(int)
+comment3.params=
+comment3.target=void\ decrementar()
+comment4.params=
+comment4.target=int\ getContador()
+comment5.params=
+comment5.target=void\ incrementar()
+comment6.params=
+comment6.target=void\ printContador()
+comment7.params=
+comment7.target=void\ reset()
+numComments=8
