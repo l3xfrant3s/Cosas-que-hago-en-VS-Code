@@ -11,6 +11,6 @@ public class Alarma {
     }
 
     public String getHoraAlarma(){
-        return (horas<10?"0":"")+horas + ":" + (minutos<10?"0":"")+minutos;
+        return (horas<10?"0":"")+horas+":"+(minutos<10?"0":"")+minutos;
     }
 }
