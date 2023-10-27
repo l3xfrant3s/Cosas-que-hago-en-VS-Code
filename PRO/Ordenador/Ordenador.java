@@ -1,3 +1,5 @@
+package PRO.Ordenador;
+
 public class Ordenador{
     private int maxMemoria;
     private int memoriaInstalada;

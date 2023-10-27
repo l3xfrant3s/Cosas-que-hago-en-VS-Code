@@ -1,3 +1,5 @@
+package PRO.Calculadora;
+
 public class Calculadora{
     
     private int cantidad, suma, maximo, minimo;

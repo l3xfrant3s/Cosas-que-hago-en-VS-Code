@@ -1,3 +1,5 @@
+package PRO.Contador;
+
 public class EjemploContador{
     private int cuenta;
     private final int inicial;

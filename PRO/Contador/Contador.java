@@ -1,4 +1,6 @@
 // Source code is decompiled from a .class file using FernFlower decompiler.
+package PRO.Contador;
+
 public class Contador {
    private int cuenta;
    private final int inicial;

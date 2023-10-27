@@ -1,3 +1,5 @@
+package PRO.Cuenta;
+
 public class EjemploCuenta{
     public static void main(String[] args){
         Cuenta cliente1 = new Cuenta ("El Pepe");

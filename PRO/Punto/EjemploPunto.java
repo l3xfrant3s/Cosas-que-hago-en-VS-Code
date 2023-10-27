@@ -1,3 +1,5 @@
+package PRO.Punto;
+
 public class EjemploPunto{
     public static void main(String[] args){
         Punto ejesDefecto = new Punto();

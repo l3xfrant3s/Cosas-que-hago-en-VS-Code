@@ -1,6 +1,6 @@
 package PRO;
 import java.util.Scanner;
-import org.jfree.chart.ChartFactory;
+/*import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PlotOrientation;
@@ -32,7 +32,7 @@ import org.jfree.data.general.DefaultKeyedValues2DDataset;
 import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.data.general.PieDataset;
 import org.jfree.data.xy.DefaultXYZDataset;
-import org.jfree.data.xy.XYZDataset;
+import org.jfree.data.xy.XYZDataset;*/
 
 import javax.swing.*;
 import java.awt.*;
@@ -98,7 +98,7 @@ public class Loteria {
         System.out.println("Los años que tardaría en que coincida su número con el de la loteria son " + Math.round(dias / 365));*/
 
         // Crear un gráfico de barras
-        DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+        /*DefaultCategoryDataset dataset = new DefaultCategoryDataset();
         for (int i = 0; i < 100000; i++) {
             dataset.addValue(contador[i], "Veces", String.format("%05d", i));
         }
@@ -111,7 +111,7 @@ public class Loteria {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().add(chartPanel);
         frame.pack();
-        frame.setVisible(true);
+        frame.setVisible(true);*/
     }
     //public static void SOP(String aImprimir){System.out.println(aImprimir);}
 }

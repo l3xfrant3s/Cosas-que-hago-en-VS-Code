@@ -1,3 +1,5 @@
+package PRO.Conversor;
+
 public class EjemploConversor{
     public static void main (String[] args){
         Conversor enCentigrados = new Conversor();

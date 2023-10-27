@@ -1,3 +1,5 @@
+package PRO.Ordenador;
+
 public class EjemploOrdenador{
     public static void main(String[] args){
         Ordenador gayming = new Ordenador(960);

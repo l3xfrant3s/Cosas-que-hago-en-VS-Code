@@ -1,3 +1,5 @@
+package PRO.Conversor;
+
 public class Conversor{
     private double grados;
     public Conversor(){

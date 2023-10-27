@@ -1,3 +1,5 @@
+package PRO.Cuenta;
+
 public class Cuenta{
     private String nombre;
     private static int ID = 0;

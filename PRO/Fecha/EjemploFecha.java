@@ -1,3 +1,5 @@
+package PRO.Fecha;
+
 public class EjemploFecha{
     public static void main (String[] args){
         Fecha hoy= new Fecha(15, 6, 2016);

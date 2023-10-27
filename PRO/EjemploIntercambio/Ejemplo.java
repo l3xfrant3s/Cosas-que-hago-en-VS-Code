@@ -1,3 +1,4 @@
+package PRO.EjemploIntercambio;
 public class Ejemplo{
     private int a, b;
     

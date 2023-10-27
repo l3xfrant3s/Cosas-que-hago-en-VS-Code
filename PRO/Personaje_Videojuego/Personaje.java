@@ -1,3 +1,5 @@
+package PRO.Personaje_Videojuego;
+
 public class Personaje {
     private String nombre;
     private int x, y;

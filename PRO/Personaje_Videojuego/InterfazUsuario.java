@@ -3,6 +3,8 @@
 *  Los usuarios podrán interactuar a través
 *  de esta interfaz seleccionando diversas opciones 
 */
+package PRO.Personaje_Videojuego;
+
 import java.util.Scanner;
 public class InterfazUsuario
 {
