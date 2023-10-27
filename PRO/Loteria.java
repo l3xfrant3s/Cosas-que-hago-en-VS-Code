@@ -34,14 +34,14 @@ import org.jfree.data.general.PieDataset;
 import org.jfree.data.xy.DefaultXYZDataset;
 import org.jfree.data.xy.XYZDataset;*/
 
-import javax.swing.*;
+/*import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.ImageObserver;
 import java.awt.image.ImageProducer;
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
+import java.io.IOException;*/
 
 public class Loteria {
     public static void main(String[] args) {
