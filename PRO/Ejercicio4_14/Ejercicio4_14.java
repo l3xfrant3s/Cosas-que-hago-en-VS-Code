@@ -9,7 +9,7 @@ public class Ejercicio4_14 {
         SOPLN("El número 12 apareció " + temp + " ve" + (temp==1?"z":"ces"));*/
         //SOPLN(sumarSerie(5)+"");
         //SOPLN(sumarSerieAlt(5)+"");
-        //SOPLN(sumarDivisores(100)+""); //1+2+4+5+10+20+25+50+100
+        SOPLN(sumarDivisores(100)+""); //1+2+4+5+10+20+25+50+100
         SOPLN(sumarDigitos(345)+"");
 
     }
@@ -65,9 +65,9 @@ public class Ejercicio4_14 {
     }
     
     public static int sumarDivisores(int numero){
-        int suma = 0;
-        int divisor = 1;
-        while(divisor <= numero){
+        int suma = 1+numero;
+        int divisor = 2;
+        while(divisor <= numero/2+1){
             if (numero % divisor == 0){
                 suma += divisor;
             }
@@ -81,7 +81,7 @@ public class Ejercicio4_14 {
         int divisor = 10;
         int comp = 1;
         while(true){
-            System.out.println(numero%divisor);
+            //System.out.println(numero%divisor);
             suma += (numero % divisor)/comp;
             if(divisor >= numero)break;
             divisor *= 10;
@@ -90,7 +90,7 @@ public class Ejercicio4_14 {
         return suma;
     }
     
-    public static int sumarComponentesPrimos(int numero){
+    /*public static int sumarComponentesPrimos(int numero){
         int suma = 0;
         int copiaNumero = numero;
         int divisor = 2;
@@ -103,7 +103,7 @@ public class Ejercicio4_14 {
             divisor++;
         }
         return suma;
-    }
+    }*/
 
     public static void SOPLN(String aImprimir){
         System.out.println(aImprimir);
