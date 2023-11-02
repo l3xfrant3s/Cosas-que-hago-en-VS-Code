@@ -3,7 +3,7 @@ package PRO.Ejercicio4_15;
 public class Ejercicio4_15{
 
     public static void main(String[] args){
-        System.out.println("escribirFiguraCuadrado:");
+        /*System.out.println("escribirFiguraCuadrado:");
         escribirFiguraCuadrado(6);
         System.out.println("\nescribirFiguraEscalera:");
         escribirFiguraEscalera(6);
@@ -12,7 +12,9 @@ public class Ejercicio4_15{
         System.out.println("\nescribirTablaMultiplicar:");
         escribirTablaMultiplicar(6);
         System.out.println("\ncalcularSumatorios:");
-        calcularSumatorios(6, 20);
+        calcularSumatorios(6, 20);*/
+        System.out.println("\nescribirTablaMultiplicarCuadrado:");
+        escribirTablaMultiplicarCuadrado(10);
         
     }
 
@@ -55,7 +57,7 @@ public class Ejercicio4_15{
         int multiplicando = 1;
         while(multiplicando <= numero){
             int multiplicador = 1;
-            while(multiplicador <= numero){
+            while(multiplicador <= 10){
                 System.out.printf("%d x %d = %d\n", multiplicando, multiplicador, multiplicando*multiplicador);
                 multiplicador++;
             }
@@ -64,11 +66,26 @@ public class Ejercicio4_15{
         }
     }
 
+    public static void escribirTablaMultiplicarCuadrado(int numero){
+        int multiplicador = 1;
+        while(multiplicador <= 10){
+            int multiplicando = 1;
+            String linea = "";
+            while(multiplicando <= numero){
+                linea += "\t"+multiplicando+"x"+multiplicador+"="+(multiplicando*multiplicador);
+                multiplicando++;
+            }
+            System.out.println(linea);
+            multiplicador++;
+            //if(multiplicando <= numero) System.out.println("--------------");
+        }
+    }
+
     public static void calcularSumatorios(int cuantos, int limite){
         int numero = 0;
         int iter = 0;
         while(iter < cuantos){
-            numero = (int) (Math.random() * limite-1) + 1;
+            numero = (int) (Math.random() * limite) + 1;
             int suma = numero;
             String frase = "sumatorio("+numero+")="+numero;
             while(numero > 1){
