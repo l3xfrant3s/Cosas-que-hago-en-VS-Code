@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Punto(int,\ int)
+comment0.text=\nConstructor\ de\ la\ clase\ Punto\n\n
+comment1.target=int\ getX()
+comment1.text=\nAccesor\ par\ el\ atributo\ x\n@return\ \ El\ valor\ de\ la\ coordenada\ x\ \ \ \n\n
+comment2.target=int\ getY()
+comment2.text=\nAccesor\ para\ el\ atributo\ y\n@return\ \ El\ valor\ de\ la\ coordenada\ y\ \ \ \n\n
+comment3.params=x
+comment3.target=void\ setX(int)
+comment3.text=\n\nMutador\ para\ la\ coordenada\ x\n@param\ x\ es\ el\ nuevo\ valor\ de\ x\n@return\ \ \ \ \ \n\n
+comment4.params=y
+comment4.target=void\ setY(int)
+comment4.text=\nMutador\ para\ la\ coordenada\ y\n@param\ \ y\ es\ el\ nuevo\ de\ y\ \ \n\n
+comment5.target=String\ toString()
+comment5.text=\n@return\ \ Devuelve\ una\ cadena\ con\ la\ representaci\u00F3n\ del\ \npunto\n\n
+numComments=6
