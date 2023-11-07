@@ -3,7 +3,7 @@ package PRO.UT4.Ejercicio4_16;
 public class Ejercicio4_16 {
     public static void main(String[] args){
         //contarParesImpares();
-        System.out.println(maximo(5));
+        //System.out.println(maximo(5));
         escribirEstadisticas();
     }
 
