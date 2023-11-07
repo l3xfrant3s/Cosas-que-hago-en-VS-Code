@@ -1,9 +1,12 @@
 package PRO.Quicksort;
 
 import java.util.Arrays;
-
 public class Quicksort {
+    static long iter = 0;
     public static int[] ordenarQuickSort(int[] aOrdenar){
+        //iter++;
+        //if(iter%1000==0)SOP(iter+"\n");
+
         if(aOrdenar.length == 0 || aOrdenar.length == 1)return aOrdenar;
         int pivote = aOrdenar[0];
         //Buscar una forma mejor de escoger pivote
@@ -66,9 +69,11 @@ public class Quicksort {
     }
 
     public static boolean estaOrdenado(int[] lista){
+        SOP("Dentro\n");
         for(int i=0; i<lista.length-1;i++){
             if(lista[i]>lista[i+1])return false;
         }
+        SOP("Fuera\n");
         return true;
     }
 }
