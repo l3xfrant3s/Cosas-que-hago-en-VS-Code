@@ -61,7 +61,7 @@ public class Punto2{
     }
 
     public double getDistanciaDesdeOrigen(){
-        return Math.sqrt(x*x*1.0 + y*y*1.0);
+        return Math.sqrt(x*x + y*y);
     }
 
     public double getDistanciaDesde(Punto2 p){
