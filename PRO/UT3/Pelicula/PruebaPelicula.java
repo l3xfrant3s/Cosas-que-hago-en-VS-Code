@@ -1,3 +1,5 @@
+package PRO.UT3.Pelicula;
+
 public class PruebaPelicula{
     public static void main(String[] args){
         Pelicula muchosAhoraMismo = new Pelicula("Las Aventuras de un Alumno Desesperado", "Alexis Felipe Rodríguez", 110, 5);

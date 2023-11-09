@@ -1,3 +1,5 @@
+package PRO.UT3.Pelicula;
+
 public class Pelicula{
     private String nombre, director;
     private int genero, duracion, anioEstreno;
