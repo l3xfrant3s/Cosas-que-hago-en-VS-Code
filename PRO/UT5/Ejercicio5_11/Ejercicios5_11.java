@@ -2,7 +2,7 @@ package PRO.UT5.Ejercicio5_11;
 
 import java.util.Random;
 
-import PRO.ArrayTools;
+//import PRO.ArrayTools;
 
 public class Ejercicios5_11 {
     static Random generador = new Random();
