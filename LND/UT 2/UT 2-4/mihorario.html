@@ -5,6 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <style>
+            table {
+                text-align: center;
+                border-collapse: collapse;
+                background-color: #e6e6e6;
+                border-width: 0px 3px 3px 0px;
+                border-style: solid;
+            }
+            * {
+                font-size: 32px;
+            }
             th.horario {
                 border-width: 0px 2px 2px 0px;
                 border-style: solid;
@@ -16,6 +26,8 @@
             td.fol {
                 background-color:red;
                 border: 1px solid;
+                color:white;
+                border-color: black;
             }
             td.pro {
                 background-color:cyan;
@@ -28,6 +40,8 @@
             td.ets {
                 background-color: BlueViolet;
                 border: 1px solid;
+                color:white;
+                border-color: black;
             }
             td.ssf {
                 background-color: yellow;
@@ -45,20 +59,10 @@
                 border-width: 0px 2px 0px 0px;
                 border-style: solid;
             }
-            table {
-                text-align: center;
-                border-collapse: collapse;
-                background-color: #e6e6e6;
-                border-width: 0px 3px 3px 0px;
-                border-style: solid;
-            }
-            * {
-                font-size: 32px;
-            }
         </style>
     </head>
     <body>
-        <table>
+        <table align="center">
             <tr>
                 <th class="horario">Horario</th>
                 <th>Lunes</th>
@@ -97,11 +101,12 @@
             
             <tr>
                 <td class="horario">10:45-11:15</td>
-                <td class="recreo"></td>
+                <!--<td class="recreo"></td>
                 <td class="recreo"></td>
                 <td class="recreo">RECREO</td>
                 <td class="recreo"></td>
-                <td class="recreo"></td>
+                <td class="recreo"></td>-->
+                <td class="recreo" colspan="5">RECREO</td>
             </tr>
             
             <tr>
