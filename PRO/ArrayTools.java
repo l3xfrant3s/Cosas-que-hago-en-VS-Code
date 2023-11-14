@@ -18,10 +18,10 @@ public class ArrayTools {
     }
 
     public static void imprimirArray(int[] array){
-        if(array.length == 0){System.out.println("{}\n");return;}
+        if(array.length == 0){System.out.println("{}");return;}
         String elArray = "{";
         for(int i = 0; i < array.length; i++){
-            elArray += array[i]+(i==array.length-1?"}\n":",");
+            elArray += array[i]+(i==array.length-1?"}":",");
         }
         System.out.println(elArray);
     }

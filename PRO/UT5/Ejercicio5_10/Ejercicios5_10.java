@@ -1,4 +1,4 @@
-package PRO.UT5.Ejercicios5_10;
+package PRO.UT5.Ejercicio5_10;
 
 import java.util.Random;
 
