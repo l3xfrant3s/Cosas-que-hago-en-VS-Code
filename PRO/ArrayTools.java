@@ -1,4 +1,4 @@
-package PRO.ArrayTools;
+package PRO;
 
 public class ArrayTools {
 

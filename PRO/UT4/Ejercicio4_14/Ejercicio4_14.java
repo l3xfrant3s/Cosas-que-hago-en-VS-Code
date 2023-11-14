@@ -3,12 +3,12 @@ package PRO.UT4.Ejercicio4_14;
 public class Ejercicio4_14 {
     public static void main(String[] args){
         int temp = 0;
-        //escribirNumero(10, 30);
-        //mostrarPares();
-        /*temp = generarAleatorios();
-        SOPLN("El número 12 apareció " + temp + " ve" + (temp==1?"z":"ces"));*/
-        //SOPLN(sumarSerie(5)+"");
-        //SOPLN(sumarSerieAlt(5)+"");
+        escribirNumero(10, 30);
+        mostrarPares();
+        temp = generarAleatorios();
+        SOPLN("El número 12 apareció " + temp + " ve" + (temp==1?"z":"ces"));
+        SOPLN(sumarSerie(5)+"");
+        SOPLN(sumarSerieAlt(5)+"");
         SOPLN(sumarDivisores(100)+""); //1+2+4+5+10+20+25+50+100
         SOPLN(sumarDigitos(345)+"");
 

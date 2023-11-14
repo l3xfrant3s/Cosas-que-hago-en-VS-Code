@@ -1,6 +1,6 @@
 package PRO.UT5.Ejercicio5_8;
 
-import PRO.ArrayTools.ArrayTools;
+import PRO.ArrayTools;
 
 public class Ejercicio5_8 {
     public static void main(String[] args) {
