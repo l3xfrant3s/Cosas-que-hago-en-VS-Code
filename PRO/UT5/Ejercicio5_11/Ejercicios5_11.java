@@ -18,7 +18,7 @@ public class Ejercicios5_11 {
     public static int[] calcularFrecuencias(){
 		int[] frecuencias = new int[9];
         int temp = 0;
-        for (int i = 0; i < 100; i++){
+        for (int i = 0; i < 10; i++){
             temp = generador.nextInt(9);
             frecuencias[temp]++;
         }

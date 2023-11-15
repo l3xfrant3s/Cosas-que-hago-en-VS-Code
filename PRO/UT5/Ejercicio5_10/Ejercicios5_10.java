@@ -5,11 +5,11 @@ import java.util.Random;
 import PRO.ArrayTools;
 
 public class Ejercicios5_10 {
-    static final int MAX = 4;
+    static final int MAX = 10;
     static Random generador = new Random();
     public static void main(String[] args) {
         int[] paresAleatorios = generarArray();
-        ArrayTools.imprimirArray(paresAleatorios);
+        ArrayTools.imprimirArray(paresAleatorios);//Imprime "{a,b,c...}"
     }
 
     public static int[] generarArray(){
