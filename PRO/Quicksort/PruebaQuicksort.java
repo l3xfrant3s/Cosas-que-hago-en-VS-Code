@@ -5,7 +5,7 @@ import java.time.Instant;
 public class PruebaQuicksort {
     public static void main(String[] args) {
         int[] lista = new int[200000];
-        int[] lista2 = {916,1296,55,1588};
+        //int[] lista2 = {916,1296,55,1588};
         //String listaDes = "{";
         for(int i = 0; i < lista.length; i++){
             lista[i] = (int) (Math.random() * 2000) + 1;
