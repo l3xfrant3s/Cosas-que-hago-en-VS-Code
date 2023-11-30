@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="horario.css">
+        <title>AFR Examen de HTML y CSS</title>
+    </head>
+    <body>
+        <div class="todo">
+            <div class="titulo">
+                <h1><center>HORARIOS DE CLASE CURSO <span id="años">2023-2024</span></center></h1>
+            </div>
+            <div class="contenido">
+                <div class="algo">
+                    <div class="tabla_e_imagen">
+                        <table>
+                            <tr>
+                                <th class="superior" colspan="6">HORARIO DE 1º ESO</th>
+                            </tr>
+                            <tr class="dias">
+                                <td>Horas</td>
+                                <td>Lunes</td>
+                                <td>Martes</td>
+                                <td>Miércoles</td>
+                                <td>Jueves</td>
+                                <td>Viernes</td>
+                            </tr>
+                            <tr>
+                                <td class="horas">8:00</td>
+                                <td rowspan="2">Matemáticas</td>
+                                <td>Lengua</td>
+                                <td>Inglés</td>
+                                <td>Ciencias</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="horas">9:00</td>
+                                <td>Historia</td>
+                                <td>Ciencias</td>
+                                <td>Matemáticas</td>
+                                <td>Lengua</td>
+                            </tr>
+                            <tr>
+                                <td class="horas">10:00</td>
+                                <td class="recreo" colspan="5" align="center">RECREO</td>
+                            </tr>
+                            <tr>
+                                <td class="horas">10:30</td>
+                                <td>Inglés</td>
+                                <td rowspan="2">Ciencias</td>
+                                <td>Matemáticas</td>
+                                <td>Lengua</td>
+                                <td>Historia</td>
+                            </tr>
+                            <tr>
+                                <td class="horas">11:30</td>
+                                <td>Historia</td>
+                                <td>Ciencias</td>
+                                <td>Matemáticas</td>
+                                <td>Inglés</td>
+                            </tr>
+                        </table>
+                        <img src="horas.png" alt="Niño con reloj" height="15%" width="15%" usemap="niñoreloj">
+                        <map name="niñoreloj">
+                            <area shape="circle" coords="202, 147, 95" href="https://www3.gobiernodecanarias.org/medusa/edublog/ieselrincon/">
+                            <area shape="circle" coords="" href="https://www3.gobiernodecanarias.org/medusa/edublog/ieselrincon/contacto-y-localizacion/">
+                        </map>
+                    </div>
+                    <div class="email">
+                        <form>
+                            <label for:"Email">Email*</label>
+                            <input type="email" id="Email" value="Inserte email del destinatario">
+                            <input type="button" value="Enviar Horario">
+                        </form>    
+                    </div>
+                </div>
+                <div class="cursos">
+                    <ul>
+                        <li>1º ESO</li>
+                        <li>2º ESO</li>
+                        <li>3º ESO</li>
+                        <li>4º ESO</li>
+                        <li>1º Bachillerato</li>
+                        <li>2º Bachillerato</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

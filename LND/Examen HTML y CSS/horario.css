@@ -1,0 +1,54 @@
+.todo{
+    display:flex;
+    flex-direction:column;
+    background-color: #dddddd;
+}
+.contenido{
+    display: flex;
+}
+
+.titulo{
+    color:white;
+    background-color: black;
+    
+}
+
+#años{
+    color:red;
+}
+
+.algo{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 7;
+}
+.cursos {
+    display: flex;
+    background-color: #999999;
+    flex-grow: 4;
+}
+
+.tabla_e_imagen{
+    display: flex;
+    flex-direction: row;
+}
+
+td{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 0;
+}
+
+.dias{
+    background-color: #eed5d1;
+}
+
+.horas{
+    background-color: #008000;
+}
+
+.recreo {
+    background-color: #ffff00;
+
+}
