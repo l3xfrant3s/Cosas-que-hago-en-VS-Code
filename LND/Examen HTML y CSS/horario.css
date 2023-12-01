@@ -3,6 +3,7 @@
     flex-direction:column;
     background-color: #dddddd;
 }
+
 .contenido{
     display: flex;
 }
@@ -33,11 +34,20 @@
     flex-direction: row;
 }
 
+.imagen{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: 3%;
+}
+
 td{
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    margin: 0;
 }
 
 .dias{
@@ -51,4 +61,8 @@ td{
 .recreo {
     background-color: #ffff00;
 
+}
+
+.boton{
+    padding: 3px 3px 3px 3px;
 }
