@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Socio
+comment1.params=elTipo\ DNI\ comoTeLlamas\ primerApellido
+comment1.target=Socio(int,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=nombreSocio\ apellido
+comment2.target=void\ asignarNombre(java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=int\ getTipoSocio()
+comment4.params=t
+comment4.target=void\ setTipoSocio(int)
+comment5.params=
+comment5.target=java.lang.String\ getNombre()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
