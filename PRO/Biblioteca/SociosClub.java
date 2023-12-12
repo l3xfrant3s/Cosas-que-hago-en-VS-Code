@@ -88,5 +88,6 @@ public class SociosClub{
             }
         }
         System.out.println("Ha introducido "+cuentaVocales+" vocal"+(cuentaVocales==1?"":"es"));
+        teclado.close();
     }
 }

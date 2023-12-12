@@ -1,0 +1,17 @@
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 60%;
+    height: 40%;
+}
+
+td{
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+}
+
+.resaltado{
+    font-weight: 700;
+    text-align: center;
+}
