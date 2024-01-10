@@ -1,0 +1,23 @@
+table {
+    border-style: solid;
+    border-width: 1px;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.texto {
+    text-align: center;
+    color: blue; /*esto hace que el borde la celda también sea azul*/
+    border-color: black; /*sobreescribe color*/
+}
+
+hr {
+    color: lightgray;
+}
+
+marquee {
+    color: blue;
+}

@@ -1,11 +1,11 @@
 package PRO.UT5.Ejercicio5_8;
 
-import PRO.ArrayTools;
+import PRO.MickeyHerramientas;
 
 public class Ejercicio5_8 {
     public static void main(String[] args) {
         int[] lista = {1,2,3,4,5,6,7,10,202};
-        ArrayTools.imprimirArray(vectorPares(lista));//Imprime el array en formato {a,b,c...}
+        MickeyHerramientas.imprimirArray(vectorPares(lista));//Imprime el array en formato {a,b,c...}
     }
 
     public static int[] vectorPares(int[] vector){
@@ -17,6 +17,6 @@ public class Ejercicio5_8 {
                 cuantosPares++;
             }
         }
-        return ArrayTools.copiarArray(arrayPares, cuantosPares);//Devuelve una copia del array del mismo tamaño que el limite
+        return MickeyHerramientas.copiarArray(arrayPares, cuantosPares);//Devuelve una copia del array del mismo tamaño que el limite
     }
 }

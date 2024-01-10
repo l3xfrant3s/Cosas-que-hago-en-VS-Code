@@ -1,6 +1,6 @@
 package PRO.UT5.Ejercicio5_9;
 
-import PRO.ArrayTools;
+import PRO.MickeyHerramientas;
 
 public class Ejercicio5_9 {
     public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class Ejercicio5_9 {
             //for(int j = 0; j < veces-i; j++)System.out.print(">");
             //System.out.print("\n");
         }
-        ArrayTools.imprimirArray(numeros);
+        MickeyHerramientas.imprimirArray(numeros);
         System.out.print("\n");
 	}
 
@@ -48,7 +48,7 @@ public class Ejercicio5_9 {
             //System.out.print("\n");
         }
         //for(int j = 0; j < veces; j++)System.out.print(" ");
-        ArrayTools.imprimirArray(numeros);
+        MickeyHerramientas.imprimirArray(numeros);
         System.out.print("\n");
 	}
 }

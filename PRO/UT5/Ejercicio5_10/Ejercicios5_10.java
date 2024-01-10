@@ -2,14 +2,14 @@ package PRO.UT5.Ejercicio5_10;
 
 import java.util.Random;
 
-import PRO.ArrayTools;
+import PRO.MickeyHerramientas;
 
 public class Ejercicios5_10 {
     static final int MAX = 10;
     static Random generador = new Random();
     public static void main(String[] args) {
         int[] paresAleatorios = generarArray();
-        ArrayTools.imprimirArray(paresAleatorios);//Imprime "{a,b,c...}"
+        MickeyHerramientas.imprimirArray(paresAleatorios);//Imprime "{a,b,c...}"
     }
 
     public static int[] generarArray(){

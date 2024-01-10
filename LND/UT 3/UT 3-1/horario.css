@@ -1,0 +1,43 @@
+*{
+    background-color: #99feff;
+}
+
+table{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 60%;
+}
+
+td{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.azul {
+    text-align: center;
+    color: blue; /*esto hace que el borde la celda también sea azul*/
+    border-color: black; /*sobreescribe color*/
+}
+
+.texto {
+    text-align: center;
+}
+
+.esp {
+    text-align: center;
+    background-color: #ff9000;
+}
+
+.azul-esp {
+    text-align: center;
+    color: blue;
+    border-color: black;
+    background-color: #ff9000;
+}
+
+.informatica{
+    text-align: center;
+    background-color: ff99ff;
+}
