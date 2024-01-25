@@ -8,20 +8,30 @@ public class Palabra {
 	}
     public String invertir(){
         String invertida = "";
-        for(int i = palabra.length(); i > 0; i--){
+        for(int i = palabra.length(); i >= 0; i--){
             invertida += palabra.charAt(i);
         }
         return invertida;
     }
 
     public int contarVocales(){
-        char[] vocales = {'a', 'e', 'i', 'o', 'u'};
+        int cuentaVocales = 0;
+        String palabraMinus = palabra.toLowerCase();
         for (int i = 0; i < palabra.length(); i++){
-            
+            switch(palabraMinus.charAt(i)){
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u': cuentaVocales++;
+            }
         }
+        return cuentaVocales;
     }
 
-    public boolean mayorQue(String palabra){}
+    public boolean mayorQue(String palabra){
+        return this.palabra.equals(palabra);
+    }
 
-    public boolean esPalindromo(){}
+    /*public boolean esPalindromo(){}*/
 }
