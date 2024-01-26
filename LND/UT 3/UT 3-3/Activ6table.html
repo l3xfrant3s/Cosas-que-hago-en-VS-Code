@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Activ6.css"/>
+    </head>
+    <body>
+        <form>
+            <table summary="FORMULARIO DE ALTA DE USUARIOS">
+                <caption colspan="2">FORMULARIO DE ALTA DE USUARIOS</caption>
+                <tr><th colspan="2">Datos Personales</td></tr>
+                <tr>
+                    <td><label for="nombre">Nombre:</label></td>
+                    <td><input type="text" id="nombre"></td>
+                </tr>
+                <tr>
+                    <td><label for="apellido">Apellidos:</label></td>
+                    <td><input type="text" id="apellido"></td>
+                </tr>
+                <tr>
+                    <td><label for="edad">Edad</label></td>
+                    <td>
+                        <select id="edad">
+                        <option value="menos18">&lt18</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="mas21">&gt21</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="telefono">Teléfono:</label></td>
+                    <td><input type="tel" id="telefono" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}[0-9]{2}"></td>
+                </tr>
+                <tr>
+                    <td><label for="sexo">Sexo:</label></td>
+                    <td>
+                        <input type="radio" id="masc" name="sexo" value="masculino">
+                        <label for="sexo">Hombre</label>
+                        <input type="radio" id="fem" name="sexo" value="femenino">
+                        <label for="sexo">Mujer</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="foto">Subir Foto</label></td>
+                    <td><input type="file" id="foto"></td>
+                </tr>
+                <tr><th colspan="2">Datos de registro</td></tr>
+                <tr>
+                    <td><label for="usuario">Nombre de Usuario:</label></td>
+                    <td><input type="text" id="usuario"></td>
+                </tr>
+                <tr>
+                    <td><label for="contraseña">Contraseña:</label></td>
+                    <td><input type="password" id="contraseña"></td>
+                </tr>
+                <tr>
+                    <td><label for="contraseña">Confirmar contraseña:</label></td>
+                    <td><input type="password" id="contraseña"></td>
+                </tr>
+                <tr><th colspan="2">Dirección E-mail</td></tr>
+                <tr>
+                    <td><label for="email">Dirección de E-mail:</label></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr><th colspan="2">Otros datos</td></tr>
+                <tr>
+                    <td><label for="sector">Sector:</label></td>
+                    <td>
+                        <datalist id="sector">
+                            <option value="Informatica (Intenet)">
+                        </datalist>
+                    </td>
+                </tr>
+                <tr><th colspan="2">Intereses</td></tr>
+                <tr>
+                    <td colspan="2">
+                        <table>
+                            <tr>
+                                <td><input type="checkbox" id="interes1" value="Ocio"></td>
+                                <td><label for="interes1">Ocio</label></td>
+                                <td><input type="checkbox" id="interes2" value="Ofertas"></td>
+                                <td><label for="interes2">Ofertas</label></td>
+                                <td><input type="checkbox" id="interes3" value="Bancos"></td>
+                                <td><label for="interes3">Bancos</label></td>
+                                <td><input type="checkbox" id="interes4" value="Empleo"></td>
+                                <td><label for="interes4">Empleo</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" id="interes5" value="Coches"></td>
+                                <td><label for="interes5">Coches</label></td>
+                                <td><input type="checkbox" id="interes6" value="Música"></td>
+                                <td><label for="interes6">Música</label></td>
+                                <td><input type="checkbox" id="interes7" value="Compras"></td>
+                                <td><label for="interes7">Compras</label></td>
+                                <td><input type="checkbox" id="interes8" value="Deportes"></td>
+                                <td><label for="interes8">Deportes</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" id="interes9" value="Cursos"></td>
+                                <td><label for="interes9">Cursos</label></td>
+                                <td><input type="checkbox" id="interes10" value="Informática"></td>
+                                <td><label for="interes10">Informática</label></td>
+                                <td><input type="checkbox" id="interes11" value="Viajes"></td>
+                                <td><label for="interes11">Viajes</label></td>
+                                <td><input type="checkbox" id="interes12" value="Revistas"></td>
+                                <td><label for="interes12">Revistas</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" id="interes13" value="Hijos"></td>
+                                <td><label for="interes13">Hijos</label></td>
+                                <td><input type="checkbox" id="interes14" value="Noticias"></td>
+                                <td><label for="interes14">Noticias</label></td>
+                                <td><input type="checkbox" id="interes15" value="Adultos"></td>
+                                <td><label for="interes15">Adultos</label></td>
+                                <td><input type="checkbox" id="interes16" value="Salud"></td>
+                                <td><label for="interes16">Salud</label></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr><th colspan="2">Información Adicional</td></tr>
+                <tr>
+                    <td>
+                        Observaciones:
+                        <textarea name="observaciones">
+                        </textarea>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

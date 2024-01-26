@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Activ6.css"/>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr><th>FORMULARIO DE ALTA DE USUARIOS</th></tr>
+                <tr><td colspan="2">Datos Personales</td></tr>
+                <tr>
+                    <td><label for="nombre">Nombre:</label></td>
+                    <td><input type="text" id="nombre"></td>
+                </tr>
+                <tr>
+                    <td><label for="apellido">Apellidos:</label></td>
+                    <td><input type="text" id="apellido"></td>
+                </tr>
+                <tr>
+                    <td><label for="edad">Edad</label></td>
+                    <td>
+                        <select id="edad">
+                        <option value="menos18">&lt18</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="mas21">&gt21</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="telefono">Teléfono:</label></td>
+                    <td><input type="tel" id="telefono"></td>
+                </tr>
+                <tr>
+                    <td><label for="sexo">Sexo:</label></td>
+                    <td>
+                        <input type="radio" id="masc" name="sexo" value="masculino">
+                        <label for="sexo">Hombre</label>
+                        <input type="radio" id="fem" name="sexo" value="femenino">
+                        <label for="sexo">Mujer</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="foto">Subir Foto</label></td>
+                    <td><input type="file" id="foto"></td>
+                </tr>
+                <tr><td colspan="2">Datos de registro</td></tr>
+                <tr>
+                    <td><label for="usuario">Nombre de Usuario:</label></td>
+                    <td><input type="text" id="usuario"></td>
+                </tr>
+                <tr>
+                    <td><label for="contraseña">Contraseña:</label></td>
+                    <td><input type="password" id="contraseña"></td>
+                </tr>
+                <tr>
+                    <td><label for="contraseña">Confirmar contraseña:</label></td>
+                    <td><input type="password" id="contraseña"></td>
+                </tr>
+                <tr><td colspan="2">Dirección E-mail</td></tr>
+                <tr>
+                    <td><label for="email">Dirección de E-mail:</label></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

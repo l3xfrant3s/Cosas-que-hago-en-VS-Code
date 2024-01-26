@@ -1,0 +1,41 @@
+table{
+    background-color: #d5d9d8;
+    margin: auto;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: white;
+}
+
+form{
+    text-align: center;
+}
+
+form table:first-child{
+    width: 60%;
+}
+
+tr th[colspan="2"]{
+    background-color: #0080ff;
+    text-align: center;
+    font-weight: 700;
+}
+
+td table{
+    background-color: yellow;
+}
+
+caption{
+    background-color: #eebb75;
+    font-size: 1.5em;
+    color:blue;
+}
+
+tr td:nth-last-child(2){
+    font-weight: 700;
+}
+
+td {
+    border-style: ridge;
+    border-width: 1px;
+    border-color: white;
+}
