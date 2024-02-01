@@ -20,10 +20,6 @@ tr th[colspan="2"]{
     font-weight: 700;
 }
 
-td table{
-    background-color: yellow;
-}
-
 caption{
     background-color: #eebb75;
     font-size: 1.5em;
