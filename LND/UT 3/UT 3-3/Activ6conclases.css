@@ -1,0 +1,62 @@
+.primero{
+    background-color: #d5d9d8;
+    width: 60%;
+    border-collapse: collapse;
+    border: 2px solid darkgray;
+    min-width: 445px;
+}
+
+.interna{
+    background-color: #ffff80;
+    margin: 25px auto;
+    border-collapse: collapse;
+}
+
+.seccion{
+    background-color: #0080ff;
+    text-align: center;
+    font-weight: 700;
+    padding: 7px 0px;
+    border: 2px solid darkgray;
+}
+
+caption, .caption{
+    background-color: #eebb75;
+    font-size: 1.5em;
+    color:blue;
+    border: 2px solid darkgray;
+    text-align: center;
+}
+
+optgroup[label]{
+    font-weight: normal;
+    font-style: normal;
+}
+
+.etiqueta{
+    width: 30%;
+    font-weight: bold;
+    border-right: 2px solid darkgray;
+}
+
+textarea{
+    overflow-y: scroll;
+    resize: none;
+}
+
+.observaciones_y_botones{
+    margin: auto;
+    text-align: center;
+}
+
+.formulario{
+    float:left;
+}
+
+div {
+    overflow: auto;
+}
+
+/*div:not(div:first-child){
+    background-color: green;
+}*/

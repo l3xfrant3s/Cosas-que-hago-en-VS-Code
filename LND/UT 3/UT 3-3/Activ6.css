@@ -1,9 +1,14 @@
 table{
-    background-color: #d5d9d8;
     margin: auto;
     border-style: ridge;
-    border-width: 1px;
-    border-color: white;
+    border-width: 5px;
+    border-color: #d5d9d8;
+    border-collapse: collapse;
+}
+
+td table{
+    background-color: yellow;
+    border-collapse: collapse;
 }
 
 form{
@@ -12,6 +17,7 @@ form{
 
 form table:first-child{
     width: 60%;
+    background-color: #d5d9d8;
 }
 
 tr th[colspan="2"]{
@@ -27,11 +33,21 @@ caption{
 }
 
 tr td:nth-last-child(2){
+    width: 30%;
     font-weight: 700;
 }
 
-td {
+td, th {
     border-style: ridge;
-    border-width: 1px;
-    border-color: white;
+    border-width: 5px;
+    border-color: #d5d9d8;
+}
+
+select{
+    overflow-y: auto;
+}
+
+optgroup[label]{
+    font-weight: normal;
+    font-style: normal;
 }

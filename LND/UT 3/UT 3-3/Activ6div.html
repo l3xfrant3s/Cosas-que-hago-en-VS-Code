@@ -2,68 +2,157 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Activ6.css"/>
+        <link rel="stylesheet" href="Activ6conclases.css"/>
     </head>
     <body>
         <form>
-            <table>
-                <tr><th>FORMULARIO DE ALTA DE USUARIOS</th></tr>
-                <tr><td colspan="2">Datos Personales</td></tr>
-                <tr>
-                    <td><label for="nombre">Nombre:</label></td>
-                    <td><input type="text" id="nombre"></td>
-                </tr>
-                <tr>
-                    <td><label for="apellido">Apellidos:</label></td>
-                    <td><input type="text" id="apellido"></td>
-                </tr>
-                <tr>
-                    <td><label for="edad">Edad</label></td>
-                    <td>
+            <div class="primero">
+                <div class="caption">FORMULARIO DE ALTA DE USUARIOS</div>
+                <div class="seccion">Datos Personales</div>
+                <div>
+                    <div class="etiqueta formulario"><label for="nombre">Nombre:</label></div>
+                    <div><input type="text" id="nombre"></div>
+                </div>
+                <div>
+                    <div class="etiqueta formulario"><label for="apellido">Apellidos:</label></div>
+                    <div><input type="text" id="apellido" size="40" maxlength="60"></div>
+                </div>
+                <div>
+                    <div class="etiqueta formulario"><label for="edad">Edad</label></div>
+                    <div>
                         <select id="edad">
-                        <option value="menos18">&lt18</option>
-                        <option value="18">18</option>
-                        <option value="19">19</option>
-                        <option value="20">20</option>
-                        <option value="mas21">&gt21</option>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="telefono">Teléfono:</label></td>
-                    <td><input type="tel" id="telefono"></td>
-                </tr>
-                <tr>
-                    <td><label for="sexo">Sexo:</label></td>
-                    <td>
+                            <option value="menos18">&lt18</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="mas21">&gt21</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="etiqueta formulario"><label for="telefono">Teléfono:</label></div>
+                    <div><input type="tel" id="telefono" pattern="[0-9]{3}[0-9]{2}[0-9]{2}[0-9]{2}" size="10" placeholder="912345678"></div>
+                </div>
+                <div>
+                    <div class="etiqueta formulario"><label for="sexo">Sexo:</label></div>
+                    <div>
                         <input type="radio" id="masc" name="sexo" value="masculino">
                         <label for="sexo">Hombre</label>
                         <input type="radio" id="fem" name="sexo" value="femenino">
                         <label for="sexo">Mujer</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="foto">Subir Foto</label></td>
-                    <td><input type="file" id="foto"></td>
-                </tr>
-                <tr><td colspan="2">Datos de registro</td></tr>
-                <tr>
-                    <td><label for="usuario">Nombre de Usuario:</label></td>
-                    <td><input type="text" id="usuario"></td>
-                </tr>
-                <tr>
-                    <td><label for="contraseña">Contraseña:</label></td>
-                    <td><input type="password" id="contraseña"></td>
-                </tr>
-                <tr>
-                    <td><label for="contraseña">Confirmar contraseña:</label></td>
-                    <td><input type="password" id="contraseña"></td>
-                </tr>
-                <tr><td colspan="2">Dirección E-mail</td></tr>
-                <tr>
-                    <td><label for="email">Dirección de E-mail:</label></td>
-                    <td><input type="email" id="email"></td>
-                </tr>
-            </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="etiqueta formulario"><label for="foto">Subir Foto</label></div>
+                    <div><input type="file" id="foto"></div>
+                </div>
+                <div class="seccion">Datos de registro</div>
+                <div>
+                    <div class="etiqueta formulario"><label for="usuario">Nombre de Usuario:</label></div>
+                    <div><input type="text" id="usuario"></div>
+                </div>
+                <div>
+                    <div class="etiqueta formulario"><label for="contraseña">Contraseña:</label></div>
+                    <div><input type="password" id="contraseña"></div>
+                </div>
+                <div>
+                    <div class="etiqueta formulario"><label for="contraseña">Confirmar contraseña:</label></div>
+                    <div><input type="password" id="contraseña"></div>
+                </div>
+                <div class="seccion">Dirección E-mail</div>
+                <div>
+                    <div class="etiqueta formulario"><label for="email">Dirección de E-mail:</label></div>
+                    <div><input type="email" id="email"></div>
+                </div>
+                <div class="seccion">Otros datos</div>
+                <div>
+                    <div class="etiqueta formulario"><label for="sector">Sector:</label></div>
+                    <div>
+                        <select id="sector" size="7">
+                            <optgroup id="sector" label="   Elija una opción">
+                                <option value="Informatica (Internet)">Informatica (Internet)</option>
+                                <option value="Informatica (Desarrollo software)">Informatica (Desarrollo software)</option>
+                                <option value="Educación">Educación</option>
+                                <option value="Arquitectura/Ingenieria">Arquitectura/Ingenieria</option>
+                                <option value="Construcción">Construcción</option>
+                                <option value="Otros">Otros</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <div class="etiqueta formulario"><label for="ocupacion">Ocupación:</label></div>
+                    <div>
+                        <select id="sector">
+                            <option value="opc1">Ocupación 1</option>
+                            <option value="opc2">Ocupación 2</option>
+                            <option value="opc3">Ocupación 3</option>
+                            <option value="opc4">Ocupación 4</option>
+                            <option value="opc5">Ocupación 5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="seccion">Intereses</div>
+                <div>
+                    <div>
+                        <table class="interna">
+                            <tr>
+                                <td><input type="checkbox" id="interes1" value="Ocio"></td>
+                                <td><label for="interes1">Ocio</label></td>
+                                <td><input type="checkbox" id="interes2" value="Ofertas"></td>
+                                <td><label for="interes2">Ofertas</label></td>
+                                <td><input type="checkbox" id="interes3" value="Bancos"></td>
+                                <td><label for="interes3">Bancos</label></td>
+                                <td><input type="checkbox" id="interes4" value="Empleo"></td>
+                                <td><label for="interes4">Empleo</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" id="interes5" value="Coches"></td>
+                                <td><label for="interes5">Coches</label></td>
+                                <td><input type="checkbox" id="interes6" value="Música"></td>
+                                <td><label for="interes6">Música</label></td>
+                                <td><input type="checkbox" id="interes7" value="Compras"></td>
+                                <td><label for="interes7">Compras</label></td>
+                                <td><input type="checkbox" id="interes8" value="Deportes"></td>
+                                <td><label for="interes8">Deportes</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" id="interes9" value="Cursos"></td>
+                                <td><label for="interes9">Cursos</label></td>
+                                <td><input type="checkbox" id="interes10" value="Informática"></td>
+                                <td><label for="interes10">Informática</label></td>
+                                <td><input type="checkbox" id="interes11" value="Viajes"></td>
+                                <td><label for="interes11">Viajes</label></td>
+                                <td><input type="checkbox" id="interes12" value="Revistas"></td>
+                                <td><label for="interes12">Revistas</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" id="interes13" value="Hijos"></td>
+                                <td><label for="interes13">Hijos</label></td>
+                                <td><input type="checkbox" id="interes14" value="Noticias"></td>
+                                <td><label for="interes14">Noticias</label></td>
+                                <td><input type="checkbox" id="interes15" value="Adultos"></td>
+                                <td><label for="interes15">Adultos</label></td>
+                                <td><input type="checkbox" id="interes16" value="Salud"></td>
+                                <td><label for="interes16">Salud</label></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="seccion">Información Adicional</div>
+                <div>
+                    <div class="observaciones_y_botones" colspan="2">
+                        <textarea name="observaciones" placeholder="Otros datos de interés..." cols="40" rows="8">
+                        </textarea>
+                    </div>
+                </div>
+                <div>
+                    <div class="observaciones_y_botones" colspan="2">
+                        <input type="submit" value="Enviar Formulario">
+                        <input type="reset" value="Resetear Campos">
+                    </div>
+                </div>
+            </div>
         </form>
     </body>
 </html>
