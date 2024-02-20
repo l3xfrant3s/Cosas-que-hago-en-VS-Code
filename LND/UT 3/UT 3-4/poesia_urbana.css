@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.alumno{
+    color:#ffa400
+}
+
+.autor{
+    color:#808080
+}
+
+.cabecera{
+    position: relative;
+    float: left;
+}
+
+.contenido{
+    display: inline-block;
+    width: 49%
+}
+
+.contenido1{
+    float: left;
+    width: 45%
+}
+
+.contenido2{
+    float: right;
+    width: 45%
+}
+
+.contenido2 p{
+    font-family: 'Shadows Into Light';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+html{
+    background-color: #ffffe0;
+}
+
+.larosa{
+    float: right;
+}
+
+.poesiaurbana{
+    float:inline-start;
+}
+
+.texto{
+    display: inline-block;
+    width: 33%;
+}
+
+.tomas{
+    float: left;
+}

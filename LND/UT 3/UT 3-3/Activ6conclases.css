@@ -33,6 +33,10 @@ optgroup[label]{
     font-style: normal;
 }
 
+select{
+    overflow-y:hidden;
+}
+
 .etiqueta{
     width: 30%;
     font-weight: bold;
@@ -56,7 +60,3 @@ textarea{
 div {
     overflow: auto;
 }
-
-/*div:not(div:first-child){
-    background-color: green;
-}*/

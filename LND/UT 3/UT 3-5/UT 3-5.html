@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="UT 3-5.css"/>
+    </head>
+    <body>
+        <form>
+            <h1>
+                HOJA DE INSCRIPCIÓN<br>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR
+            </h1>
+            <fieldset id="1">
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos">
+                <label for="dni">DNI:</label>
+                <input type="text" id="dni">
+                <label for="localidad">Localidad de nacimiento:</label>
+                <input type="text" id="localidad">
+                <label for="provincia">Provincia:</label>
+                <select id="provincia">
+                    <option value="alava">Álava</option>
+                    <option value="albacete">Albacete</option>
+                    <option value="alicante">Alicante</option>
+                    <option value="almeria">Almería</option>
+                    <option value="asturias">Asturias</option>
+                    <option value="avila">Ávila</option>
+                    <option value="badajoz">Badajoz</option>
+                    <option value="barcelona">Barcelona</option>
+                    <option value="burgos">Burgos</option>
+                    <option value="caceres">Cáceres</option>
+                    <option value="cadiz">Cádiz</option>
+                    <option value="cantabria">Cantabria</option>
+                    <option value="castellon">Castellón</option>
+                    <option value="ciudad_real">Ciudad Real</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="la_coruna">La Coruña</option>
+                    <option value="cuenca">Cuenca</option>
+                    <option value="girona">Girona</option>
+                    <option value="granada">Granada</option>
+                    <option value="guadalajara">Guadalajara</option>
+                    <option value="guipuzcoa">Guipúzcoa</option>
+                    <option value="huelva">Huelva</option>
+                    <option value="huesca">Huesca</option>
+                    <option value="islas_baleares">Islas Baleares</option>
+                    <option value="jaen">Jaén</option>
+                    <option value="leon">León</option>
+                    <option value="lerida">Lérida</option>
+                    <option value="lugo">Lugo</option>
+                    <option value="madrid">Madrid</option>
+                    <option value="malaga">Málaga</option>
+                    <option value="murcia">Murcia</option>
+                    <option value="navarra">Navarra</option>
+                    <option value="ourense">Ourense</option>
+                    <option value="palencia">Palencia</option>
+                    <option value="las_palmas">Las Palmas de Gran Canaria</option>
+                    <option value="pontevedra">Pontevedra</option>
+                    <option value="la_rioja">La Rioja</option>
+                    <option value="salamanca">Salamanca</option>
+                    <option value="santa_cruz_de_tenerife">Santa Cruz de Tenerife</option>
+                    <option value="segovia">Segovia</option>
+                    <option value="sevilla">Sevilla</option>
+                    <option value="soria">Soria</option>
+                    <option value="tarragona">Tarragona</option>
+                    <option value="teruel">Teruel</option>
+                    <option value="toledo">Toledo</option>
+                    <option value="valencia">Valencia</option>
+                    <option value="valladolid">Valladolid</option>
+                    <option value="vizcaya">Vizcaya</option>
+                    <option value="zamora">Zamora</option>
+                    <option value="zaragoza">Zaragoza</option>
+                </select>
+                <label for="fecha-nac">Fecha de nacimiento:</label>
+                <input type="date" id="fecha-nac">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion">
+                <label for="cod-postal">Código Postal:</label>
+                <input type="text" id="cod-postal">
+            </fieldset>
+            <fieldset id="2">
+                <legend>Forma de Acceso</legend>
+                <input type="radio" id="directo" name="modalidad">
+                <label for="directo">Directo</label>
+                <fieldset>
+                    <input type="radio" id="bachi-logse" name="directo">
+                    <label for="bachi-logse">Bachillerato LOGSE. Modalidad</label>
+                    <input type="text" id="bachi-logse">
+                    <input type="radio" id="bachi-expe" name="directo">
+                    <label for="bachi-expe">Bachillerato Experimental</label>
+                    <input type="radio" id="cou" name="directo">
+                    <label for="cou">COU. Opción</label>
+                    <input type="text" id="cou">
+                    <input type="radio" id="fp2" name="directo">
+                    <label for="fp2">FP2</label>
+                    <input type="radio" id="otros1" name="directo">
+                    <label for="otros1">Otros (especifique)</label>
+                    <input type="text" id="otros1">
+                </fieldset>
+                <input type="radio" id="prueba-libre" name="modalidad">
+                <label for="prueba-libre">Prueba-Libre</label>
+            </fieldset>
+            <fieldset id="3">
+                <legend>Documentos Adjuntados</legend>
+                <input type="checkbox" id="foto-dni">
+                <label for="foto-dni">Fotocopia DNI</label>
+                <input type="checkbox" id="certificado-acad">
+                <label for="certificado-acad">Certificado Académico</label>
+                <input type="checkbox" id="otros2">
+                <label for="otros2">Otros documentos (especifique)</label>
+                <input type="text" id="otros2">
+            </fieldset>
+            <input type="submit" value="Enviar Solicitud">
+        </form>
+    </body>
+</html>
