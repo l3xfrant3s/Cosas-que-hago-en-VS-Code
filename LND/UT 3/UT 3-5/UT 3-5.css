@@ -1,3 +1,24 @@
+fieldset legend{
+    border: black solid 1px;
+    background-color: white;
+}
+
 h1 {
     text-align: center;
+}
+
+#datos-personales{
+    background-color: #cbcbcb;
+}
+
+#acceso{
+    background-color: #ffe3c2;
+}
+
+#adjuntos{
+    background-color: #ef7f7f;
+}
+
+#acceso-directo{
+    margin: 0px 0px 0px 50px;
 }

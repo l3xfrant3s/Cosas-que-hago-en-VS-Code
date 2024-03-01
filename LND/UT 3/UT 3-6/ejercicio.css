@@ -1,14 +1,27 @@
+a{
+    color:green;
+}
+
+a:visited{
+    color:red;
+}
+
+label::after{
+    content:"*";
+    color: red;
+}
+
 table{
     border-collapse: collapse;
+}
+
+td:first-child{
+    background-color: green;
 }
 
 th, td{
     border-style: solid;
     border-width: 1px;
-}
-
-td:first-child{
-    background-color: green;
 }
 
 th[colspan="5"]{
@@ -19,6 +32,6 @@ tr:first-child th::first-letter{
     font-size: 2em;
 }
 
-a{
-    color:green;
+tr > td:last-child:hover, tr > th:last-child:hover{
+    font-size: 2em;
 }
