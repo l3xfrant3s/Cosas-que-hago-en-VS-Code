@@ -35,9 +35,11 @@ public class Empresa {
         HashSet<Electrodomestico> borrados = new HashSet<>();
         Iterator<Electrodomestico> iter = electrodomesticos.iterator();
         int pos = 0;
-        while(iter.hasNext()){
+        while(iter.hasNext()){      
             if(iter.next().getColor().equals(aBorrar)){
-                borrados.add(electrodomesticos.remove(pos--));
+                Electrodomestico aux = electrodomesticos.remove(pos);
+                pos--;
+                borrados.add(aux);
             }
             pos++;
         }
