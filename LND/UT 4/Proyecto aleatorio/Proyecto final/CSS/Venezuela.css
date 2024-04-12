@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+@font-face {
+  font-family: "Canveat";
+  src: url("Canveat-Font.woff2");
+  font-family: "New tegomin";
+  src: url("../FONT/New/tegomin_Font.woff2");
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.contenedor{
+  display: flexbox;
+  position: relative;
+  background: linear-gradient(#3d3834, #463d36, #7c7062, #a49484, #9d7c6b, #905f50, #7f3d2f, #6a332c, #542829, #482428, #432326, #351f21, #261d20);
+}
+
+.header{
+  background-color: #4a2326;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 5px 10%;
+  font-family: "Caveat";
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header .logo img{
+  height: 70px;
+  margin: auto;
+  width: auto;
+  transition: all 0.3s;
+  border-radius: 50%;
+}
+
+.header .logo img:hover{
+  transform: scale(1.2); /*Esto es para aumentar el tamaño de la imagen*/
+}
+
+.header .options a{
+  font-size: 16px;
+  color: #fffffe;
+  text-decoration: none;
+}
+
+.header .options{
+  list-style: none;
+}
+
+.header .options li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header .options li:hover{
+  transform: scale(1.1);
+}
+
+.header .options li a:hover{
+  color: #f7d118;
+}
+
+.header .options a{
+  font-size: 700;
+  color: #fffffe;
+  text-decoration: none;
+}
+
+.header .tittle{
+  color: #fffffe;
+}
+
+.content-wrapper-head{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, .7),
+    rgba(0, 0, 0, .7)),
+    url(../IMG/Tabla.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.content-wrapper-head{
+  text-align: center;
+}
+
+.content-wrapper-head h1{
+  font-size: 75px;
+  line-height: 80px;
+  color: #fffffe;
+  margin-bottom: 30px;
+}
+
+.content-wrapper-head p{
+  font-size: 14px;
+  color: #fffffe;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+
+.btn-1{
+  display: inline-block;
+  padding: 11px 35px;
+  background-color: #7c7062;
+  color: #fffffe;
+  text-transform: uppercase;
+}
+
+.btn-1:hover{
+  background-color: #463d36;
+}
+
+.content-wrapper-body{
+  max-height: 100px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.breakfast-content{
+  color: #fffffe;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
+  font-family: "Caveat";
+}
+
+.colums-1-breakfast{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.colum-1{
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+.paragraph1{
+  display: flex 1;
+  color: #fffffe;
+  margin-bottom: 20px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.images-div-cea{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.images-div-cea img{
+  height: 300px;
+  margin: 0 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.colum-2{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+.paragraph2{
+  display: flex 1;
+  color: #fffffe;
+  margin-bottom: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.images-div-ctp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.images-div-ctp img{
+  height: 300px;
+  margin: 0 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.lunch-tittle{
+  color: #fffffe;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
+  font-family: "Caveat";
+}
+
+.lunch-container{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px
+}
+
+.colums-1-lunch img{
+  border-radius: 20px;
+  width: 200px;
+}
+
+.colums-1-lunch p {
+  text-align: justify;
+  display: inline-block; /* Hace que el párrafo tenga las mismas propiedades de ancho que un bloque */
+  width: 100%; /* Asegura que el párrafo ocupe todo el ancho disponible */
+  max-width: 300px; /* Por ejemplo, establece un ancho máximo para el párrafo */
+  margin: 0; /* Elimina los márgenes para que el párrafo no tenga espacio adicional */
+  color: #fffffe;
+}
+
+.colums-2-lunch img{
+  border-radius: 20px;
+  width: 200px;
+}
+
+.colums-2-lunch p {
+  text-align: justify;
+  display: inline-block;
+  width: 100%; 
+  max-width: 300px; 
+  margin: 0; 
+  color: #fffffe;
+}
+
+.colums-3-lunch img{
+  border-radius: 20px;
+  width: 200px;
+}
+
+.colums-3-lunch p {
+  text-align: justify;
+  display: inline-block;
+  width: 100%; 
+  max-width: 300px; 
+  margin: 0; 
+  color: #fffffe;
+}
+
+.lunch-container-2{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px
+}
+
+.colums--lunch img{
+  border-radius: 20px;
+  width: 200px;
+}
+
+.colums--lunch p {
+  text-align: justify;
+  display: inline-block;
+  width: 100%; 
+  max-width: 300px; 
+  margin: 0; 
+  color: #fffffe;
+}
+
+.dessert-tittle{
+  color: #fffffe;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
+  font-family: "Caveat";
+}
+
+.food-galeri-dessert{
+  margin-top: 10px;
+  display: flex;
+  height: 20rem;
+  gap: 0.8rem;
+}
+
+.image-container{
+  flex: 1;
+  position: relative; /* Para que la superposición esté relativa a este contenedor */
+  border-radius: 1rem;
+  overflow: hidden; /* Para que el overlay no se salga del contenedor */
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5); /* Para oscurecer*/
+  opacity: 0; /*Inicialmente oculto*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease; /* Transición suave para la opacidad*/
+}
+
+.overlay p{
+  color: white;
+  font-size: 2rem;
+  font-family: "Caveat";
+}
+
+.food-galeri-dessert> div{
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.food-galeri-dessert> div:hover {
+  flex: 1.5;
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* Mostrar el overlay al hacer hover */
+}
+
+.dinner-tittle{
+  color: #fffffe;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
+  font-family: "Caveat";
+}
+
+.content-dinner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column-dinner{
+  flex-basis: calc(25% - 20px);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.column-dinner img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.column-dinner h3{
+  font-size: 2.3;
+  color: white;
+}
+
+.column-dinner p{
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.footer-section{
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  display: flex;
+  position: static;
+  overflow: visible;
+  font-family: "New tegomin";
+}
+
+.head-final{
+  color: #fffffe;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  padding-left: 0;
+  line-height: 80%;
+  margin-top: 80px;
+}
+
+.head-final1{
+  font-size: 60px;
+}
+
+.sunhead-final{
+  max-height: 40px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.sunhead-final1{
+  color: #fffffe;
+  font-size: 30px;
+  margin-left: 0;
+  margin-top: 2px;
+}
+
+.content-wrapper{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 5em;
+}
+
+
+.paragraph-colums{
+  color: #fffffe;
+  margin-bottom: 20px;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+.paragraph-1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contenedor .form-columns .form-header .form-tittle{
+  font-weight: normal;
+  font-family: "New tegomin";
+  color:  #fffffe;
+}
+
+.contenedor .form-columns .form{
+  background: rgba(0, 0, 0, .6);
+  width: 70%;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 35px;
+  border-radius: 3px;
+}
+
+.form-columns .form .field-label-contact-us-name{
+  display: block;
+  color: #f7d118;
+  font-size: 20px;
+}
+
+.form-columns .form .field-label-contact-us-email{
+  display: block;
+  color: #0032ab;
+  font-size: 20px;
+}
+
+.form-columns .form .field-label-contact-us-descripcion{
+  display: block;
+  color: #d0142c;
+  font-size: 20px;
+}
+
+.form-columns .form .form-input, .textarea{
+  background: rgba(255, 255, 255, .5);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+  width: 100%;
+  padding: 12px;
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.form-columns .form .buttom{
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border: none;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.form-columns .form .form-input:focus, 
+.form-columns .form textarea:focus {
+  color: white; /* Para que el texto sea blanco cuando el campo está enfocado */
+}
+
+.form-columns .form .buttom:hover{
+  transform: scale(1.1);
+}
+
+.buttom{
+  margin-top: 20px;
+}
+
+.social-links{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.social-links img{
+  align-items: center;
+  border-radius: 50px;
+}
+
+.social-links img:hover{
+  transform: scale(1.2);
+  opacity: 10;
+}
+
+.final-line{
+  color: #fffffe;
+  font-size: 12px;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}

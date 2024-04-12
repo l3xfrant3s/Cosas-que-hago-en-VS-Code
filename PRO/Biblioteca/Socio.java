@@ -1,3 +1,5 @@
+package PRO.Biblioteca;
+
 public class Socio{
 
     private String nombre, identificador;

@@ -1,3 +1,5 @@
+package PRO.Biblioteca;
+
 import java.util.Scanner;
 
 public class SociosClub{

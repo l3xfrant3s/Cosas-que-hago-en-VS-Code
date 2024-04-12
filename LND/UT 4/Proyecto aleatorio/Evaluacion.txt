@@ -1,0 +1,40 @@
+- Rutas relativas especificadas correctamente o no. ✔️
+
+- Usar etiquetas semánticas de estructura de html5 con coherencia. Header, nav, footer, main, article, etc..... ❌
+
+- Diseño responsive. ❌
+
+- Hay enlaces a otras páginas o anclajes a distintos apartados dentro de la misma página. ✔️
+
+- Las opciones del menú́ cambian algo en su estilo en los distintos estados (al pasar el ratón por encima y al seleccionarlo). ✔️
+
+- Usar una fuente externa. ✔️
+
+- Introduce en la cabecera un icono y un título de la página como mínimo. ✔️
+
+- Utiliza etiquetas, elementos o propiedades contempladas en la programación de la unidad y trabajadas en clase.
+
+- La página tiene al menos tres secciones de contenido diferentes. ✔️
+
+- Alguna sección tiene una imagen de fondo a la que aplicarás un degradado con transparencia para que la letra que pongas encima la leas sin problema.  ✔️
+
+- Una de las secciones tiene dos columnas, otra tres y otra cuatro. Cada una de estas secciones cambia su distribución para tablets y para móviles. ❌
+
+- Hay una galería de imágenes. Aplica alguuna transición a la imagen cuando pasa el ratón por encima. ✔️
+
+- En una sección se incluye un formulario. ✔️
+
+- Incluye un pie. ✔️
+
+Otras notas:
+    Mala indentación en el HTML, aunque no es necesario para el buen
+    funcionamiento de la página, hace dificil comprobar cómo está estructurada.
+
+    Sobran algunas etiquetas y parametros CSS (cito la etiqueta <a> en la linea 18 del html).
+
+    En general malas decisiones llevan a que haya varios desajustes en la pagina; cito:
+    El contenedor con el formulario tiene un espacio entre las dos partes que hace que se salga de la página.
+    
+    Tiene de responsivo lo que mi gata cuando le atropelló un coche hace 3 años (todavía me pone triste ver fotos suyas en Google Fotos).
+
+    4/10? 5/10? Definitivamente aprobado si arreglase los problemamitas que tiene, más si la hace responsive.
