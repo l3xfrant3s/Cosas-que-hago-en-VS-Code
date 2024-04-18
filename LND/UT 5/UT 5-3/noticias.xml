@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias en español</title>
+        <link></link>
+        <description>Las últimas noticias de tecnología en español</description>
+        <item>
+            <title>Sandisk presenta sus nuevas tarjetas SD Express, hasta 10 veces más rápidas</title>
+            <link>https://www.hobbyconsolas.com/noticias/sandisk-presenta-nuevas-tarjetas-sd-express-10-veces-rapidas-podrian-ser-almacenamiento-switch-2-1379087</link>
+            <description>Western Digital y su marca Sandisk hab presentado de manera oficial sus nuevas tarjetas SD Express, incluyendo la versión microSD, una novedad que hace un par de meses corrió como la pólvora porque podría ser el sistema de almacenamiento de Nintendo Switch 2...</description>
+        </item>
+        <item>
+            <title>Comienza la pesadilla: Windows 11 empieza a mostrar anuncios en el menú de inicio</title>
+            <link>https://computerhoy.com/windows/windows-11-empieza-mostrar-anuncios-menu-inicio-1379751</link>
+            <description>Microsoft ha comenzado a insertar anuncios y recomendaciones de aplicaciones en el menú inicio de Windows 11. Los usuarios podrán desactivar esta nueva función desde la configuración del menú.</description>
+        </item>
+        <item>
+            <title>DiskMantler crean una máquina que puede desmantelar un disco duro con vibración</title>
+            <link>https://www.profesionalreview.com/2024/04/15/diskmantler-desmantelar-disco-duro-vibracion/</link>
+            <description>DiskMantler puede desmantelar un disco duro en 90 segundos con una vibración super-intensa</description>
+        </item>
+        <item>
+            <title>Juan Diego Polo, experto en tecnología, explica como los estudiantes usan Chat GPT para los exámenes</title>
+            <link>https://www.cope.es/programas/poniendo-las-calles/noticias/juan-diego-polo-experto-tecnologia-explica-como-los-estudiantes-usan-chat-gpt-para-los-examenes-20240416_3248987</link>
+            <description>Un día más, nuestro experto en tecnología Juan Diego Polo, responsable del portal de noticias WWWhatsnew, nos cuenta todas las novedades que hay actualmente en el mercado</description>
+        </item>
+        <item>
+            <title>El fin del ADSL ya es una realidad en España: estos son los operadores que ofrecen el cambio a fibra óptica</title>
+            <link>https://www.20minutos.es/tecnologia/actualidad/operadores-ofrecen-cambio-adsl-fibra-optica-5237074/</link>
+            <description>Cuando digamos adiós de manera definitiva al ADSL, Telefónica cerrará sus últimas 3.329 centrales. No obstante, algunas operadoras ya ofrecen el cambio a la fibra óptica.</description>
+        </item>
+    </channel>
+</rss>

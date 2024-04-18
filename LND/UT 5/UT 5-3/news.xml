@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias en inglés</title>
+        <link>www.google.com</link>
+        <description>Las últimas noticias de tecnología en inglés</description>
+        <item>
+            <title>A new NES emulator was briefly available on the Apple App Store</title>
+            <link>https://www.theverge.com/2024/4/16/24132351/iphone-apple-app-store-nes-emulator-bimmy-removed</link>
+            <description>Just two days after Apple removed the iGBA emulator from the iOS App Store, an NES emulator called Bimmy briefly appeared before being taken down. MacRumors reported that the app was described as being for homebrew games but also supported ROMs provided by players. Unfortunately, when we attempted to download Bimmy, we received an error message saying it’s no longer available.</description>
+        </item>
+        <item>
+            <title>TechCrunch Minute: New Atlas robot stuns experts in first reveal from Boston Dynamics</title>
+            <link>https://techcrunch.com/2024/04/17/techcrunch-minute-new-atlas-robot-stuns-experts-in-first-reveal-from-boston-dynamics/</link>
+            <description>This week Boston Dynamics retired its well-known Atlas robot that was powered by hydraulics. Then today it unveiled its new Atlas robot, which is powered by electricity.</description>
+        </item>
+        <item>
+            <title>Pixel's new satellite feature could show people where you are on Google Maps</title>
+            <link>https://www.techradar.com/computing/software/pixels-new-satellite-feature-could-show-people-where-you-are-on-google-maps</link>
+            <description>Recent leaks claim Google is working on further integrating satellite connectivity to their Pixel phones and could introduce support for the tech in Google Maps. This information comes from two industry insiders: AssembleDebug who shared his findings with PiunikaWeb and Nail Sadykov over on Telegram. Beginning with the former, users will apparently be able to share their location with others via satellite connection.</description>
+        </item>
+        <item>
+            <title>Google is cracking down on YouTube ad-blockers again</title>
+            <link>https://www.theshortcut.com/p/google-is-cracking-down-on-youtube-ad-blockers</link>
+            <description>Google is once again trying to stop people from using ad-blockers on YouTube, in a bid to drive more users to its Premium subscription service.</description>
+        </item>
+        <item>
+            <title>Kremlin-backed actors spread disinformation ahead of US elections</title>
+            <link>https://arstechnica.com/security/2024/04/russian-us-election-interference-sowing-discord-over-ukraine-kicks-into-gear/-robot-stuns-experts-in-first-reveal-from-boston-dynamics/</link>
+            <description>Kremlin-backed actors have stepped up efforts to interfere with the US presidential election by planting disinformation and false narratives on social media and fake news sites, analysts with Microsoft reported Wednesday.</description>
+        </item>
+    </channel>
+</rss>

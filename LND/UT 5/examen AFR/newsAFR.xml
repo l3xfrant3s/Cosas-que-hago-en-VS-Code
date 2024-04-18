@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>El País</title>
+        <link>https://elpais.com/</link>
+        <description>Enlace al diario el País</description>
+        <category>Actualidad</category>
+        <item>
+            <title>ABC</title>
+            <link>https://www.abc.es/</link>
+            <description>Enlace al diario ABC</description>
+            <author>alexisfeliperodriguez@alumno.ieselrincon.es (Alexis Felipe Rodríguez)</author>
+        </item>
+        <item>
+            <title>El Mundo</title>
+            <link>https://www.elmundo.es/</link>
+            <description>Enlace al periódico El Mundo</description>
+            <author>alexisfeliperodriguez@alumno.ieselrincon.es (Alexis Felipe Rodríguez)</author>
+        </item>
+    </channel>
+</rss>

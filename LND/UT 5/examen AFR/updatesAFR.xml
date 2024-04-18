@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>El tiempo en Puntallana</title>
+        <link>https://www.aemet.es/es/eltiempo/prediccion/municipios/puntallana-san-juan-de-puntallana-id38030</link>
+        <description>El tiempo en mi pueblo</description>
+        <category>Varios?</category>
+        <item>
+            <title>Maldito Bulo</title>
+            <link>https://maldita.es/malditobulo/</link>
+            <description>Página que desmiente bulos</description>
+        </item>
+        <item>
+            <title>W3Schools Tutorial RSS</title>
+            <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+            <description>Tutorial de RSS por W3 Schools</description>
+        </item>
+        <item>
+            <title>Mozilla Developer glosario RSS</title>
+            <link>https://developer.mozilla.org/es/docs/Glossary/RSS</link>
+            <description>Glosario de RSS de Mozilla Developer</description>
+        </item>
+        <item>
+            <title>Open Bootcamp</title>
+            <link>https://open-bootcamp.com/</link>
+            <description>Enlace a Open Bootcamp</description>
+        </item>
+        <item>
+            <title>RSS Wikipedia</title>
+            <link>https://es.wikipedia.org/wiki/RSS</link>
+            <description>Artículo de RSS en la Wikipedia</description>
+        </item>
+    </channel>
+</rss>
