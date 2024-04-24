@@ -1,0 +1,8 @@
+<!ELEMENT tareas (nombre, img, tarea*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT img (#PCDATA)>
+<!ELEMENT tarea (titulo, descripcion, vencimiento?)>
+<!ATTLIST tarea id CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT vencimiento (#PCDATA)>

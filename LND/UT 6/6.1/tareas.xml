@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tareas SYSTEM "tareas.dtd">
+<tareas>
+    <nombre>Mi lista de tareas</nombre>
+    <img>selfie.png</img>
+    <tarea id='01'>
+        <titulo>6.1 LND</titulo>
+        <descripcion>Ejercicio 6.1 de Lenguaje de Marcas</descripcion>
+        <vencimiento>12/04/2024</vencimiento>
+    </tarea>
+    <tarea id='02'>
+        <titulo>6.3 LND</titulo>
+        <descripcion>Ejercicio 6.3 de Lenguaje de Marcas</descripcion>
+        <vencimiento>16/04/2024</vencimiento>
+    </tarea>
+</tareas>

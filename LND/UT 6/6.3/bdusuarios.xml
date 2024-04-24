@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bdusuarios [
+    <!ELEMENT bdusuarios (usuario)+>
+    <!ELEMENT usuario (nombre, email, fechaNac)>
+    <!ATTLIST usuario
+        clave CDATA #REQUIRED
+        dni CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT fechaNac EMPTY>
+]>
+<bdusuarios>
+    <usuario clave="123" dni="11111111H">
+        <nombre>Juan</nombre>
+        <email>juan@hotmail.com</email>
+        <fechaNac />
+    </usuario>
+    <usuario clave="321" dni="11233211B">
+        <nombre>Yo</nombre>
+        <email>yo@elvr.es</email>
+        <fechaNac />
+    </usuario>
+</bdusuarios>

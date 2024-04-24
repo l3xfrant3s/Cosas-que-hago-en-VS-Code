@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE BDcomponentes [
+    <!ELEMENT BDcomponentes (componente)+>
+    <!ELEMENT componente (nombre, (precio|precioigic), tipo+, peso)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT precioigic (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT peso (#PCDATA)>
+]>
+<BDcomponentes>
+    <componente>
+        <nombre>Perno</nombre>
+        <precio>0,05€</precio>
+        <tipo>Unión</tipo>
+        <tipo>Acero</tipo>
+        <peso>20 gramos</peso>
+    </componente>
+    <componente>
+        <nombre>Destornillador de precisión</nombre>
+        <precioigic>6,99€</precioigic>
+        <tipo>Torx</tipo>
+        <peso>150 gramos</peso>
+    </componente>
+</BDcomponentes>

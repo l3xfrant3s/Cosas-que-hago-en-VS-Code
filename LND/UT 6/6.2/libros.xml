@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "libros.dtd">
+<libros>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <isbn>9780060114183</isbn>
+        <precio>19€</precio>
+    </libro>
+    <libro>
+        <titulo>El hobbit</titulo>
+        <autor>J.R.R. Tolkien</autor>
+        <autor>Christopher Tolkien</autor>
+        <isbn>9783608987492</isbn>
+        <precio>22€</precio>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <precio>12€</precio>
+    </libro>
+    <libro>
+        <titulo>Crónica de una muerte anunciada</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <isbn>9783462037197</isbn>
+        <precio>25€</precio>
+        <precio>15€</precio>
+    </libro>
+    <libro>
+        <titulo>El señor de los anillos</titulo>
+        <autor>J.R.R. Tolkien</autor>
+        <isbn>9788845292613</isbn>
+    </libro>
+</libros>
