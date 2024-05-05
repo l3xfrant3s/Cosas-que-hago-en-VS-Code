@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BDcomponentes
+xmlns="https://www.l3xfrant3s.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.l3xfrant3s.com BDcomponentes.xsd">
+    <componente>
+        <nombre>Perno</nombre>
+        <precio>0.05</precio>
+        <tipo>Unión</tipo>
+        <tipo>Acero</tipo>
+        <peso>20</peso>
+    </componente>
+    <componente>
+        <nombre>Destornillador de precisión</nombre>
+        <precioigic>6.99</precioigic>
+        <tipo>Torx</tipo>
+        <peso>150</peso>
+    </componente>
+</BDcomponentes>

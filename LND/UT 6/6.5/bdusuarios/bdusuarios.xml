@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE bdusuarios [
-    <!ELEMENT bdusuarios (usuario+)>
-    <!ELEMENT usuario (nombre, email, fechaNac)>
-    <!ATTLIST usuario
-        clave CDATA #REQUIRED
-        dni CDATA #REQUIRED>
-    <!ELEMENT nombre (#PCDATA)>
-    <!ELEMENT email (#PCDATA)>
-    <!ELEMENT fechaNac EMPTY>
-]>
-<bdusuarios>
+<bdusuarios
+xmlns="https://www.l3xfrant3s.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.l3xfrant3s.com bdusuarios.xsd">
     <usuario clave="123" dni="11111111H">
         <nombre>Juan</nombre>
         <email>juan@hotmail.com</email>

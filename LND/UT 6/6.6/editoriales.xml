@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editoriales
+xmlns="http://www.alexisfeliperodriguez.info"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.alexisfeliperodriguez.info editoriales.xsd">
+    <titulo></titulo>
+    <editorial>
+        <nombre>Planeta</nombre>
+        <email>departamentoliterario@planeta.es</email>
+        <direccion>Av. Diagonal, 662-664, 08034 Barcelona</direccion>
+    </editorial>
+    <editorial>
+        <nombre>Espasa</nombre>
+        <direccion>Juan Ignacio Luca de Tena, 17, 28027 Madrid </direccion>
+        <tfno>914230370</tfno>
+    </editorial>
+    <editorial>
+        <nombre>Minotauro</nombre>
+        <email>infominotauro@planeta.es</email>
+        <direccion>Av. Diagonal, 662-664, 08034 Barcelona</direccion>
+    </editorial>
+    <editorial>
+        <nombre>Deusto</nombre>
+        <email>info@centrolibrospapf.es</email>
+        <homepage>www.edicionesdeusto.com</homepage>
+        <direccion>Centro de Libros PAPF Av. Diagonal, 662-664 08034 Barcelona</direccion>
+        <tfno>+34934926956</tfno>
+    </editorial>
+    <!--Aquí me di cuenta de que tal vez una pagina llamada planetadelibros.com no sea el mejor sitio para sacar una lista variada-->
+    <editorial>
+        <nombre>VOX</nombre>
+        <email>vox@vox.es</email>
+        <direccion>Parque Empresarial 22@, Edificio D. Carrer de Bac de Roda, 64. Planta 1ª Local B. 08019 Barcelona</direccion>
+        <tfno>+34932413505</tfno>
+    </editorial>
+    <editorial>
+        <nombre>Anaya</nombre>
+        <email>clientes@grupoanaya.com</email>
+        <direccion>C/ Valentín Beato, nº 21     28037 - Madrid</direccion>
+        <tfno>913933933</tfno>
+    </editorial>
+</editoriales>

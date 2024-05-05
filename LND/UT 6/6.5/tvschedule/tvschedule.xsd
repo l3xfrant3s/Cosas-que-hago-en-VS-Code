@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.l3xfrant3s.com"
+elementFormDefault="qualified">
+    <element name="TVSCHEDULE">
+        <complexType>
+            <sequence>
+                <element name="CHANNEL" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="BANNER" type="string"/>
+                            <element name="DAY" maxOccurs="unbounded">
+                                <complexType>
+                                    <sequence>
+                                        <element name="DATE" type="date" />
+                                        <choice>
+                                            <element name="HOLIDAY" type="string"/>
+                                            <element name="PROGRAMSLOT" minOccurs="0" maxOccurs="unbounded">
+                                                <complexType>
+                                                    <sequence>
+                                                        <element name="TIME" type="time"/>
+                                                        <element name="TITLE">
+                                                            <complexType>
+                                                                <simpleContent>
+                                                                    <extension base="string">
+                                                                        <attribute name="RATING" use="optional">
+                                                                            <simpleType>
+                                                                                <restriction base="string">
+                                                                                    <enumeration value="TV-Y"/>
+                                                                                    <enumeration value="TV-Y7"/>
+                                                                                    <enumeration value="TV-Y7 FV"/>
+                                                                                    <enumeration value="TV-G"/>
+                                                                                    <enumeration value="TV-PG"/>
+                                                                                    <enumeration value="TV-14"/>
+                                                                                    <enumeration value="TV-MA"/>
+                                                                                </restriction>
+                                                                            </simpleType>
+                                                                        </attribute>
+                                                                        <attribute name="LANGUAGE" use="optional">
+                                                                            <simpleType>
+                                                                                <restriction base="string">
+                                                                                    <enumeration value="en"/>
+                                                                                    <enumeration value="es"/>
+                                                                                    <enumeration value="fr"/>
+                                                                                    <enumeration value="zh"/>
+                                                                                </restriction>
+                                                                            </simpleType>
+                                                                        </attribute>
+                                                                    </extension>
+                                                                </simpleContent>
+                                                            </complexType>
+                                                        </element>
+                                                        <element name="DESCRIPTION" type="string" minOccurs="0"/>
+                                                    </sequence>                                    
+                                                    <attribute name="VTR" type="ID" use="optional"/>
+                                                </complexType>
+                                            </element>
+                                        </choice>
+                                    </sequence>
+                                </complexType>
+                            </element>
+                        </sequence>
+                        <attribute name="CHAN" use="required">
+                            <simpleType>
+                                <restriction base="ID">
+                                    <pattern value="[A-Z]{3}"/>
+                                </restriction>
+                            </simpleType>
+                        </attribute>
+                    </complexType>
+                </element>
+            </sequence>
+            <attribute name="NAME" type="string" use="required"/>
+        </complexType>
+    </element>
+</schema>

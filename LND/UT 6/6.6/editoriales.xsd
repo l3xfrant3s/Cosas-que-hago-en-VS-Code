@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.alexisfeliperodriguez.info"
+xmlns="http://www.alexisfeliperodriguez.info"
+elementFormDefault="qualified">
+    <xs:element name="editoriales">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="titulo" type="xs:string"/>
+                <xs:element name="editorial" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="email" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="homepage" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="direccion" type="xs:string"/>
+                            <xs:element name="tfno" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="fax" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

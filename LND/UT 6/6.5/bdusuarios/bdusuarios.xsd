@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.l3xfrant3s.com"
+elementFormDefault="qualified">
+    <element name="bdusuarios">
+        <complexType>
+            <sequence>
+                <element name="usuario" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="nombre" type="string"/>
+                            <element name="email" type="string"/>
+                            <element name="fechaNac"/>
+                        </sequence>
+                        <attribute name="clave" type="string" use="required"/>
+                        <attribute name="dni" use="required">
+                            <simpleType>
+                                <restriction base="string">
+                                    <pattern value="[0-9]{8}[TRWAGMYFPDXBNJZSQVHLCKE]"/>
+                                </restriction>
+                            </simpleType>
+                        </attribute>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

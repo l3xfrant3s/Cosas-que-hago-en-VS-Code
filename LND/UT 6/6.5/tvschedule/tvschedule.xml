@@ -1,33 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TVSCHEDULE [
-    <!ELEMENT TVSCHEDULE (CHANNEL+)>
-    <!ATTLIST TVSCHEDULE NAME CDATA #REQUIRED>
-        <!ELEMENT CHANNEL (BANNER, DAY+)>
-        <!ATTLIST CHANNEL CHAN CDATA #REQUIRED>
-            <!ELEMENT BANNER (#PCDATA)>
-            <!ELEMENT DAY (DATE, (HOLIDAY|PROGRAMSLOT*))>
-                <!ELEMENT DATE (#PCDATA)>
-                <!ELEMENT HOLIDAY (#PCDATA)>
-                <!ELEMENT PROGRAMSLOT (TIME, TITLE, DESCRIPTION?)>
-                <!ATTLIST PROGRAMSLOT VTR ID #IMPLIED>
-                    <!ELEMENT TIME (#PCDATA)>
-                    <!ELEMENT TITLE (#PCDATA)>
-                    <!ATTLIST TITLE RATING CDATA #IMPLIED>
-                    <!ATTLIST TITLE LANGUAGE CDATA #IMPLIED>
-                    <!ELEMENT DESCRIPTION (#PCDATA)>
-]>
-<TVSCHEDULE NAME="My TV Schedule">
+<TVSCHEDULE NAME="My TV Schedule"
+xmlns="https://www.l3xfrant3s.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.l3xfrant3s.com tvschedule.xsd">
     <CHANNEL CHAN="ABC">
         <BANNER>ABC's Schedule</BANNER>
         <DAY>
             <DATE>2023-04-24</DATE>
             <PROGRAMSLOT VTR="A1">
-                <TIME>08:00 PM</TIME>
+                <TIME>20:00:00</TIME>
                 <TITLE RATING="TV-G" LANGUAGE="en">Family Show</TITLE>
                 <DESCRIPTION>A show for the whole family.</DESCRIPTION>
             </PROGRAMSLOT>
             <PROGRAMSLOT>
-                <TIME>09:00 PM</TIME>
+                <TIME>21:00:00</TIME>
                 <TITLE>Romantic Comedy</TITLE>
             </PROGRAMSLOT>
         </DAY>
@@ -41,12 +26,12 @@
         <DAY>
             <DATE>2023-04-24</DATE>
             <PROGRAMSLOT>
-                <TIME>08:00 PM</TIME>
+                <TIME>20:00:00</TIME>
                 <TITLE RATING="TV-14">Crime Drama</TITLE>
                 <DESCRIPTION>A crime drama.</DESCRIPTION>
             </PROGRAMSLOT>
             <PROGRAMSLOT>
-                <TIME>09:00 PM</TIME>
+                <TIME>21:00:00</TIME>
                 <TITLE RATING="TV-MA">Mature Show</TITLE>
             </PROGRAMSLOT>
         </DAY>

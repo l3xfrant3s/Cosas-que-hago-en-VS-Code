@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.l3xfrant3s.com"
+elementFormDefault="qualified">
+    <element name="BDcomponentes">
+        <complexType>
+            <sequence>
+                <element name="componente" minOccurs="1" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="nombre" type="string"/>
+                            <choice>
+                                <element name="precio">
+                                    <simpleType>
+                                        <restriction base="decimal">
+                                            <minExclusive value="0"/>
+                                        </restriction>
+                                    </simpleType>
+                                </element>
+                                <element name="precioigic">
+                                    <simpleType>
+                                        <restriction base="decimal">
+                                            <minExclusive value="0"/>
+                                        </restriction>
+                                    </simpleType>
+                                </element>
+                            </choice>
+                            <element name="tipo" type="string" minOccurs="1" maxOccurs="unbounded"/>
+                            <element name="peso" type="positiveInteger"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.paso{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.imagen>a>img{
+    width: 100%;
+}
+
+.imagen{
+    position:relative;
+    width: 100%;
+}
+
+.imagen:target{
+    position:absolute;
+    width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.imagen:target > a:not([href='#']){
+    display:none;
+}
+
+a[href='#'], .invisible{
+    display:none;
+}
+
+.imagen:target > a[href='#'], .imagen:target ~ .invisible{
+    display:inline;
+}
+
+.ampli, .redu{
+    width: 100%;
+    z-index: 5;
+    opacity: 0;
+    position: absolute;
+    background-color: greenyellow;
+    color:black;
+    text-align: center;
+    white-space: nowrap;
+    left:50%;
+    top: 0%;
+    transform: translateX(-50%);
+}
+
+.redu{
+    display:none;
+    background-color: red;
+    color:white;
+}
+
+.imagen:hover > a > .ampli, .imagen:hover > a > .redu{
+    opacity: 1;
+}
+
+.imagen:target > a > .ampli{
+    display:none;
+}
+
+.imagen:target > a >  .redu{
+    display:inline;
+}
+
+/*.imagen div{
+    z-index: 4;
+    opacity: 0;
+    position: absolute;
+    background-color: black;
+    color:white;
+    text-align: center;
+    white-space: nowrap;
+    left:50%;
+    bottom: -10%;
+    transform: translateX(-50%);
+    transition: opacity 0.2s linear, bottom 0.2s linear;
+}
+
+.imagen:hover div, .imagen:active div{
+    opacity: 0.7;
+    bottom: 0%;
+    transition: opacity 0.2s linear, bottom 0.2s linear;
+}*/

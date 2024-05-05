@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE BDcomponentes [
-    <!ELEMENT BDcomponentes (componente)+>
+    <!ELEMENT BDcomponentes (componente+)>
     <!ELEMENT componente (nombre, (precio|precioigic), tipo+, peso)>
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT precio (#PCDATA)>
