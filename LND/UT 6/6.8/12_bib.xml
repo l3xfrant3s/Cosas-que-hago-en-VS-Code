@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bib SYSTEM "12_bib.dtd">
+<bib>
+    <libro titulo="Cien años de soledad" editorial="Vintage Español" autor="Gabriel García Márquez"/>
+    <libro titulo="El nombre del viento" editorial="Plaza &amp; Janés" autor="Patrick Rothfuss"/>
+    <revista titulo="Auto Bild" editorial="Axel Springer AG" numero="663"/>
+</bib>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro [
+    <!ELEMENT Libro (Titulo, Contenido, Copyright)>
+    <!ATTLIST Libro id CDATA #REQUIRED>
+    <!ELEMENT Titulo (#PCDATA)>
+    <!ELEMENT Contenido (Capitulo, Separacion?)+>
+        <!ELEMENT Capitulo (Tema, Seccion+)>
+        <!ATTLIST Capitulo materia CDATA #IMPLIED>
+            <!ELEMENT Tema (#PCDATA)>
+            <!ELEMENT Seccion (#PCDATA)>
+            <!ATTLIST Seccion apartados CDATA #REQUIRED dificil CDATA #IMPLIED>
+        <!ELEMENT Separacion EMPTY>
+    <!ELEMENT Copyright (#PCDATA)>
+]>
+<Libro id="1MA">
+    <Titulo>Una hora de calvario</Titulo>
+    <Contenido>
+        <Capitulo>
+            <Tema>Uno</Tema>
+            <Seccion apartados="Tralará">Primera</Seccion>
+            <Seccion apartados="Este, ese y aquel">Segunda</Seccion>
+        </Capitulo>
+        <Separacion/>
+        <Capitulo>
+            <Tema>Dos</Tema>
+            <Seccion apartados="Un, deux, trois">Primera</Seccion>
+        </Capitulo>
+        <Separacion/>
+        <Capitulo>
+            <Tema>Tres</Tema>
+            <Seccion apartados="One" dificil="No se, tú sabrás">Primera</Seccion>
+            <Seccion apartados="Two" dificil="Tal vez">Segunda</Seccion>
+            <Seccion apartados="Three" dificil="Sí">Tercera</Seccion>
+        </Capitulo>
+    </Contenido>
+    <Copyright>&#169; 2024 Editorial Damasco</Copyright>
+</Libro>
