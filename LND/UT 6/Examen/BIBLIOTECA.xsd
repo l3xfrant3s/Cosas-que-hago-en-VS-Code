@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="BIBLIOTECA">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="LIBRO" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="TITULO" type="xs:string" />
+                            <xs:element name="AUTOR" type="xs:string" maxOccurs="unbounded" />
+                            <xs:element name="ANYO" type="xs:integer"/>
+                            <!--Estuve dándole vueltas a la idea de poner una restricción para anyo, pero luego pensé
+                                que tal vez la biblioteca quería tener manuscritos del Imperio Romano o La Biblia misma-->
+                            <xs:element name="EDITORIAL" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="COD" type="xs:integer" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
