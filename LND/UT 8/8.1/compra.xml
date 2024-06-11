@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="compra.xsl"?>
+<compra>
+	<fecha>11/11/2011</fecha>
+	<lugar>Carrefour</lugar>
+	<productos>
+		<producto>
+			<nombre>Coca-Cola</nombre>
+			<unidades>10</unidades>
+			<precio>1.2</precio>
+		</producto>
+		<producto>
+			<nombre>Seven-7</nombre>
+			<unidades>10</unidades>
+			<precio>1.4</precio>
+		</producto>
+		<producto>
+			<nombre>Rollo de Papel Higiénico</nombre>
+			<unidades>50</unidades>
+			<precio>0.5</precio>
+		</producto>
+		<producto>
+			<nombre>Embutido</nombre>
+			<unidades>2</unidades>
+			<precio>3</precio>
+		</producto>
+		<producto>
+			<nombre>Pan</nombre>
+			<unidades>5</unidades>
+			<precio>0.4</precio>
+		</producto>
+	</productos>
+</compra>

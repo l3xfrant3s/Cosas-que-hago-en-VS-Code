@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="clasificacion.xsl"?>
+<liga>
+    <nacionalidad>Inglesa</nacionalidad>
+    <equipo>
+        <nombre>Manchester City</nombre>
+        <puntuacion>31</puntuacion>
+        <afavor>39</afavor>
+        <encontra>10</encontra>
+    </equipo>
+    <equipo>
+        <nombre>Mancherter United</nombre>
+        <puntuacion>26</puntuacion>
+        <afavor>28</afavor>
+        <encontra>16</encontra>
+    </equipo>
+    <equipo>
+        <nombre>Chelsea</nombre>
+        <puntuacion>17</puntuacion>
+        <afavor>9</afavor>
+        <encontra>32</encontra>
+    </equipo>
+    <equipo>
+        <nombre>Arsenal</nombre>
+        <puntuacion>24</puntuacion>
+        <afavor>9</afavor>
+        <encontra>5</encontra>
+    </equipo>
+</liga>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="clasificacion.xsl"?>
+<liga>
+    <nacionalidad>Española</nacionalidad>
+    <equipo>
+        <nombre>UD Las Palmas</nombre>
+        <puntuacion>31</puntuacion>
+        <afavor>39</afavor>
+        <encontra>10</encontra>
+    </equipo>
+    <equipo>
+        <nombre>Barcelona</nombre>
+        <puntuacion>26</puntuacion>
+        <afavor>28</afavor>
+        <encontra>16</encontra>
+    </equipo>
+    <equipo>
+        <nombre>Villareal</nombre>
+        <puntuacion>17</puntuacion>
+        <afavor>30</afavor>
+        <encontra>32</encontra>
+    </equipo>
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <puntuacion>1</puntuacion>
+        <afavor>1</afavor>
+        <encontra>100</encontra>
+    </equipo>
+</liga>
