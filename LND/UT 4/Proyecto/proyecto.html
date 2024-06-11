@@ -20,40 +20,40 @@
             <a href="#tres-columnas">¿Qué entra en el proyecto?</a>
             <a href="#cuatro-columnas">Si te ha gustado</a>
         </nav>
-        <h3>La galería</h3><br>
+        <h3 id="dos-columnas-titulo">La galería</h3>
         <section id="dos-columnas">
             <div id="galeria">
                 <div class="imagen">
-                    <img src="img/a4h2o.jpg" alt="Lian Li A4-H20">
-                    <div>Lian Li A4-H20</div>
+                    <div><img src="img/a4h2o.jpg" alt="Lian Li A4-H20"></div>
+                    <div class="imagen-nombre">Lian Li A4-H20</div>
                 </div>
                 <div class="imagen">
-                    <img src="img/7800x3d.jpg" alt="AMD Ryzen 7 7800X3D">
-                    <div>AMD Ryzen 7 7800X3D</div>
+                    <div><img src="img/7800x3d.jpg" alt="AMD Ryzen 7 7800X3D"></div>
+                    <div class="imagen-nombre">AMD Ryzen 7 7800X3D</div>
                 </div>
                 <div class="imagen">
-                    <img src="img/cr240.jpg" alt="EKWB EK-Nucleus CR240">
-                    <div>EKWB EK-Nucleus CR240</div>
+                    <div><img src="img/cr240.jpg" alt="EKWB EK-Nucleus CR240"></div>
+                    <div class="imagen-nombre">EKWB EK-Nucleus CR240</div>
                 </div>
                 <div class="imagen">
-                    <img src="img/x670ei.jpg" alt="ASUS ROG Strix X670E-I">
-                    <div>ASUS ROG Strix X670E-I</div>
+                    <div><img src="img/x670ei.jpg" alt="ASUS ROG Strix X670E-I"></div>
+                    <div class="imagen-nombre">ASUS ROG Strix X670E-I</div>
                 </div>
                 <div class="imagen">
-                    <img src="img/7800x3d.jpg" alt="AMD Ryzen 7 7800X3D">
-                    <div>AMD Ryzen 7 7800X3D</div>
+                    <div><img src="img/7800x3d.jpg" alt="AMD Ryzen 7 7800X3D"></div>
+                    <div class="imagen-nombre">AMD Ryzen 7 7800X3D</div>
                 </div>
                 <div class="imagen">
-                    <img src="img/cr240.jpg" alt="EKWB EK-Nucleus CR240">
-                    <div>EKWB EK-Nucleus CR240</div>
+                    <div><img src="img/cr240.jpg" alt="EKWB EK-Nucleus CR240"></div>
+                    <div class="imagen-nombre">EKWB EK-Nucleus CR240</div>
                 </div>
                 <div class="imagen">
-                    <img src="img/a4h2o.jpg" alt="Lian Li A4-H20">
-                    <div>Lian Li A4-H20</div>
+                    <div><img src="img/a4h2o.jpg" alt="Lian Li A4-H20"></div>
+                    <div class="imagen-nombre">Lian Li A4-H20</div>
                 </div>
                 <div class="imagen">
-                    <img src="img/x670ei.jpg" alt="ASUS ROG Strix X670E-I">
-                    <div>ASUS ROG Strix X670E-I</div>
+                    <div><img src="img/x670ei.jpg" alt="ASUS ROG Strix X670E-I"></div>
+                    <div class="imagen-nombre">ASUS ROG Strix X670E-I</div>
                 </div>
             </div>
             <div id="texto">
@@ -83,51 +83,53 @@
             </ul>
             <img src="img/fire_in_the_hole.webp">
         </section>
-        <h3>Si te ha gustado mi página suscribete, dale like y activa la campanita</h3>
-        <form id="cuatro-columnas">
-            <div class="item-formulario">
-                <label for="nombre">Nombre:</label>
-                <div><input type="text" id="nombre" name="nombre" required></div>
-            </div>
-            <div class="item-formulario">
-                <label for="apellidos">Apellidos:</label>
-                <div><input type="text" id="apellidos" name="apellidos" required></div>
-            </div>
-            <div class="item-formulario">
-                <label for="email">Correo electrónico:</label>
-                <div><input type="email" id="email" name="email" required></div>
-            </div>
-            <div class="item-formulario">
-                <label for="pais">País:</label>
-                <div><input type="text" id="pais" name="pais" required></div>
-            </div>
-            <div class="item-formulario">
-                <label for="provincia">Provincia:</label>
-                <div><input type="text" id="provincia" name="provincia" required></div>
-            </div>
-            <div class="item-formulario">
-                <label for="nacimiento">Fecha de nacimiento:</label>
-                <div><input type="date" id="nacimiento" name="nacimiento" required></div>
-            </div>
-            <div class="item-formulario">
-                <label for="direccion">Dirección:</label>
-                <div><input type="text" id="direccion" name="direccion" required></div>
-            </div>
-            <div class="item-formulario">
-                <label for="dni">DNI:</label>
-                <div><input type="text" id="dni" name="dni" required></div>
-            </div>
-            <div class="item-formulario">
-                <label for="tarjeta">Tarjeta bancaria:</label>
-                <div><input type="text" id="tarjeta" name="tarjeta" required></div>
-            </div>
-            <div class="item-formulario">
-                <label for="csv">Código CSV:</label>
-                <div><input type="text" id="csv" name="csv" required></div>
-            </div>
-            <div class="item-formulario">
-                <label for="caducidad">Fecha de caducidad:</label>
-                <div><input type="date" id="caducidad" name="caducidad" required></div>
+        <h3 id="cuatro-columnas-titulo">Si te ha gustado mi página suscribete, dale like y activa la campanita</h3>
+        <form>
+            <div id="cuatro-columnas">
+                <div class="item-formulario">
+                    <label for="nombre">Nombre:</label>
+                    <div><input type="text" id="nombre" name="nombre" required></div>
+                </div>
+                <div class="item-formulario">
+                    <label for="apellidos">Apellidos:</label>
+                    <div><input type="text" id="apellidos" name="apellidos" required></div>
+                </div>
+                <div class="item-formulario">
+                    <label for="email">Correo electrónico:</label>
+                    <div><input type="email" id="email" name="email" required></div>
+                </div>
+                <div class="item-formulario">
+                    <label for="pais">País:</label>
+                    <div><input type="text" id="pais" name="pais" required></div>
+                </div>
+                <div class="item-formulario">
+                    <label for="provincia">Provincia:</label>
+                    <div><input type="text" id="provincia" name="provincia" required></div>
+                </div>
+                <div class="item-formulario">
+                    <label for="nacimiento">Fecha de nacimiento:</label>
+                    <div><input type="date" id="nacimiento" name="nacimiento" required></div>
+                </div>
+                <div class="item-formulario">
+                    <label for="direccion">Dirección:</label>
+                    <div><input type="text" id="direccion" name="direccion" required></div>
+                </div>
+                <div class="item-formulario">
+                    <label for="dni">DNI:</label>
+                    <div><input type="text" id="dni" name="dni" required></div>
+                </div>
+                <div class="item-formulario">
+                    <label for="tarjeta">Tarjeta bancaria:</label>
+                    <div><input type="text" id="tarjeta" name="tarjeta" required></div>
+                </div>
+                <div class="item-formulario">
+                    <label for="csv">Código CSV:</label>
+                    <div><input type="text" id="csv" name="csv" required></div>
+                </div>
+                <div class="item-formulario">
+                    <label for="caducidad">Fecha de caducidad:</label>
+                    <div><input type="date" id="caducidad" name="caducidad" required></div>
+                </div>
             </div>
             <div id="botones">
                 <button type="button" id="likeBtn">👍</button>
