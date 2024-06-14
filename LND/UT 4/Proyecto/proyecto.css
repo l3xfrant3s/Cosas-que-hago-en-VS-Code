@@ -20,11 +20,6 @@ header{
     flex-direction: row;
 }
 
-header img{
-    width: 200px;
-    height: 128px;
-}
-
 nav{
     display:flex;
     flex-direction: row;
@@ -140,6 +135,7 @@ h3{
 
 #tres-columnas{
     position: relative;
+    color: white;
 }
 
 #tres-columnas *:not(:last-child){
@@ -201,6 +197,12 @@ ul{
     flex-direction: row;
     justify-content: space-around;
     align-items: stretch
+}
+
+#suscribirseBtn{
+    background-color:#df0000;
+    color: white;
+    border-color: #df0000;
 }
 
 footer{
