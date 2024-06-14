@@ -46,8 +46,8 @@ class LaminaGridLayout extends JPanel{
     
     public LaminaGridLayout(){
         //setLayout(new GridLayout());
-        setLayout(new GridLayout(2,4));
-        //setLayout(new GridLayout(4,2,10,5));
+        //setLayout(new GridLayout(2,4));
+        setLayout(new GridLayout(4,2,10,5));
         botonAzul=new JButton("Azul");
         add(botonAzul);
         botonRojo=new JButton("Rojo");
